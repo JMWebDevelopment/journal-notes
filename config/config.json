@@ -1,0 +1,12 @@
+{
+  "theme": {
+    "slug": "journal-notes",
+    "name": "Journal Notes",
+    "author": "Jacob Martella Web Development",
+    "PHPNamespace": "JM_Web_Development\\Journal_Notes",
+	"underscoreCase": "journal_notes",
+	"constant": "JOURNAL_NOTES",
+	"camelCase": "JournalNotes",
+	"camelCaseVar": "journalNotes"
+  }
+}
