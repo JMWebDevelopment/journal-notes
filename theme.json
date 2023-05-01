@@ -44,17 +44,17 @@
 				{
 					"name": "Black and White",
 					"slug": "black-and-white",
-					"colors": [ "#000000", "#ffffff" ]
+					"colors": [ "#2e3440", "#e5e9f0" ]
 				},
 				{
 					"name": "Primary and White",
 					"slug": "primary-and-white",
-					"colors": [ "#343A40", "#ffffff" ]
+					"colors": [ "#3b4252", "#e5e9f0" ]
 				},
 				{
 					"name": "Secondary and White",
 					"slug": "secondary-and-white",
-					"colors": [ "#6C757D", "#ffffff" ]
+					"colors": [ "#4c566a", "#e5e9f0" ]
 				}
 			],
 			"gradients": [
@@ -66,27 +66,27 @@
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
+					"color": "#e5e9f0",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#000000",
+					"color": "#2e3440",
 					"name": "Contrast",
 					"slug": "contrast"
 				},
 				{
-					"color": "#343A40",
+					"color": "#3b4252",
 					"name": "Primary",
 					"slug": "primary"
 				},
 				{
-					"color": "#6C757D",
+					"color": "#4c566a",
 					"name": "Secondary",
 					"slug": "secondary"
 				},
 				{
-					"color": "#eeeeee",
+					"color": "#d8dee9",
 					"name": "Tertiary",
 					"slug": "tertiary"
 				}
@@ -162,6 +162,100 @@
 		"typography": {
 			"dropCap": false,
 			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFamily": "\"DM Serif Display\", serif",
+					"name": "DM Serif Display",
+					"slug": "heading",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "DM Serif Display",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [ "file:./assets/webfonts/dm-serif-display/dm-serif-display.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "DM Serif Display",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [ "file:./assets/webfonts/dm-serif-display/dm-serif-display-italic.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Quattrocento\", serif",
+					"name": "Quattrocento",
+					"slug": "body",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Quattrocento",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [ "file:./assets/webfonts/quattrocento/quattrocento-regular.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Quattrocento",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [ "file:./assets/webfonts/quattrocento/quattrocento-bold.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Raleway\", serif",
+					"name": "Raleway",
+					"slug": "raleway",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/raleway/raleway-variable.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/raleway/raleway-italic-variable.woff2" ]
+						}
+					]
+				},
+				{
+					"fontFamily": "\"Chivo Mono\", serif",
+					"name": "Chivo Mono",
+					"slug": "chive-mono",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Chivo Mono",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/chivo-mono/chivo-mono-variable.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Chivo Mono",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/chivo-mono/chivo-mono-variable-italic.woff2" ]
+						}
+					]
+				}
+			],
 			"fontSizes": [
 				{
 					"fluid": false,
@@ -269,7 +363,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--monospace)",
+					"fontFamily": "var(--wp--preset--font-family--chivo-mono)",
 					"fontSize": "var(--wp--preset--font-size--regular)"
 				}
 			},
@@ -374,7 +468,7 @@
 					}
 				},
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--monospace)",
+					"fontFamily": "var(--wp--preset--font-family--chivo-mono)",
 					"fontSize": "var(--wp--preset--font-size--regular)"
 				}
 			},
@@ -583,7 +677,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--primary)",
+			"fontFamily": "var(--wp--preset--font-family--body)",
 			"fontSize": "var(--wp--preset--font-size--regular)",
 			"fontWeight": "var(--wp--custom--font-weight--regular)",
 			"lineHeight": "var(--wp--custom--line-height--body)"
