@@ -1,0 +1,9 @@
+.wp-block-table thead th,
+.wp-block-table tfoot th,
+.wp-block-table tfoot td,
+table thead th,
+table tfoot th,
+table tfoot td {
+	font-family: var(--wp--preset--font-family--heading) !important;
+	font-style: italic;
+}

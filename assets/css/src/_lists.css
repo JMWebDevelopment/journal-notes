@@ -1,0 +1,68 @@
+ul {
+
+	&.is-style-journal-notes-list-chevron-right {
+		--icon-space: 1.3em;
+		list-style: none;
+		padding: 0;
+
+		& li {
+			padding-left: var(--icon-space);
+
+			&::before {
+				content: "\f054";
+				font-family: 'Font Awesome 6 Pro';
+				display: inline-block;
+				margin-left: calc(var(--icon-space) * -1);
+				width: var(--icon-space);
+			}
+		}
+
+		& ul {
+			list-style: none;
+		}
+	}
+
+	&.is-style-journal-notes-list-check {
+		--icon-space: 1.3em;
+		list-style: none;
+		padding: 0;
+
+		& li {
+			padding-left: var(--icon-space);
+
+			&::before {
+				content: "\f00c";
+				font-family: 'Font Awesome 6 Pro';
+				display: inline-block;
+				margin-left: calc(var(--icon-space) * -1);
+				width: var(--icon-space);
+			}
+		}
+
+		& ul {
+			list-style: none;
+		}
+	}
+
+	&.is-style-journal-notes-list-dash {
+		--icon-space: 1.3em;
+		list-style: none;
+		padding: 0;
+
+		& li {
+			padding-left: var(--icon-space);
+
+			&::before {
+				content: "\f068";
+				font-family: 'Font Awesome 6 Pro';
+				display: inline-block;
+				margin-left: calc(var(--icon-space) * -1);
+				width: var(--icon-space);
+			}
+		}
+
+		& ul {
+			list-style: none;
+		}
+	}
+}

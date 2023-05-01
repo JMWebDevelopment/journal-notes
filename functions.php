@@ -22,7 +22,7 @@ if ( ! function_exists( 'crosswinds_framework_child_starter_setup' ) ) {
 	 */
 	function crosswinds_framework_child_starter_setup() {
 		// Make theme available for translation.
-		load_theme_textdomain( 'crosswinds-framework-child-starter', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'crosswinds-framework-child-starter', get_stylesheet_directory_uri() . '/languages' );
 
 		// Add support for Block Styles.
 		add_theme_support( 'wp-block-styles' );
@@ -34,7 +34,6 @@ if ( ! function_exists( 'crosswinds_framework_child_starter_setup' ) ) {
 		add_editor_style(
 			array(
 				'./assets/css/editor-styles.min.css',
-				crosswinds_framework_child_starter_fonts_url(),
 			)
 		);
 
@@ -48,35 +47,9 @@ if ( ! function_exists( 'crosswinds_framework_child_starter_setup' ) ) {
 add_action( 'after_setup_theme', 'crosswinds_framework_child_starter_setup' );
 
 // Enqueue style sheet.
-add_action( 'wp_enqueue_scripts', 'crosswinds_framework_child_starter_enqueue_style_sheet' );
+add_action( 'wp_enqueue_scripts', 'crosswinds_framework_child_starter_enqueue_style_sheet', 99 );
 function crosswinds_framework_child_starter_enqueue_style_sheet() {
-
-	wp_enqueue_style( 'crosswinds-framework-child-starter', get_template_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
-
-}
-
-// Enqueue fonts.
-add_action( 'wp_enqueue_scripts', 'crosswinds_framework_child_starter_enqueue_fonts' );
-function crosswinds_framework_child_starter_enqueue_fonts() {
-
-	wp_enqueue_style( 'crosswinds-framework-child-starter-fonts', crosswinds_framework_child_starter_fonts_url(), array(), null );
-
-}
-
-// Define fonts.
-function crosswinds_framework_child_starter_fonts_url() {
-
-	// Allow child themes to disable to the default Crosswinds Framework Child Starter Theme fonts.
-	$dequeue_fonts = apply_filters( 'crosswinds_framework_child_starter_dequeue_fonts', false );
-
-	if ( $dequeue_fonts ) {
-		return '';
-	}
-
-	$fonts = [];
-
-	// Make a single request for all Google Fonts.
-	return esc_url_raw( 'https://fonts.googleapis.com/css2?' . implode( '&', array_unique( $fonts ) ) . '&display=swap' );
+	wp_enqueue_style( 'crosswinds-framework-child-starter', get_stylesheet_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
 function crosswinds_framework_child_starter_search_title() {
@@ -96,6 +69,41 @@ register_block_style(
 	)
 );
 
+register_block_style(
+	'core/button',
+	array(
+		'name'  => 'journal-notes-line-button',
+		'label' => __( 'Underlined', 'crosswinds-framework-child-starter' ),
+	)
+);
+register_block_style(
+	'core/button',
+	array(
+		'name'  => 'journal-notes-no-background',
+		'label' => __( 'No Background', 'crosswinds-framework-child-starter' ),
+	)
+);
+
+$list_styles = array(
+	array(
+		'name'  => 'journal-notes-list-chevron-right',
+		'label' => __( 'Chevron Right', 'crosswinds-framework-child-starter' ),
+	),
+	array(
+		'name'  => 'journal-notes-list-check',
+		'label' => __( 'Checkmark', 'crosswinds-framework-child-starter' ),
+	),
+	array(
+		'name'  => 'journal-notes-list-dash',
+		'label' => __( 'Dash', 'crosswinds-framework-child-starter' ),
+	)
+);
+foreach ( $list_styles as $style ) {
+	register_block_style(
+		'core/list',
+		$style
+	);
+}
 
 // Include block patterns.
 /**

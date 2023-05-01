@@ -1,0 +1,157 @@
+.button,
+input[type="button"],
+input[type="submit"],
+.wp-element-button,
+.wp-block-post-comments input[type=submit],
+.wp-block-search__button {
+	transition: all 300ms ease;
+	transform: scale(1);
+	background-color: var(--wp--preset--color--primary);
+	color: var(--wp--preset--color--base);
+	font-family: var(--wp--preset--font-family--heading);
+	font-style: italic;
+
+
+	&:hover,
+	&:focus {
+		transform: scale(1.1) perspective(1px);
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+.is-style-journal-notes-line-button {
+
+	& .wp-element-button {
+		padding: 2px 5px;
+		box-shadow: 0 -9px var(--wp--preset--color--primary) inset;
+		color: var(--wp--preset--color--contrast);
+		background-color: transparent;
+		border: 0;
+
+		&:hover,
+		&:focus {
+			transform: scale(1) perspective(1px);
+			color: var(--wp--preset--color--base);
+			box-shadow: 0 -50px 0 0 var(--wp--preset--color--primary) inset;
+		}
+
+		&.has-secondary-background-color {
+			background-color: transparent !important;
+			box-shadow: 0 -9px var(--wp--preset--color--secondary) inset;
+
+			&:hover,
+			&:focus {
+				box-shadow: 0 -50px 0 0 var(--wp--preset--color--secondary) inset;
+			}
+		}
+
+		&.has-tertiary-background-color {
+			background-color: transparent !important;
+			box-shadow: 0 -9px var(--wp--preset--color--tertiary) inset;
+
+			&:hover,
+			&:focus {
+				color: var(--wp--preset--color--contrast);
+				box-shadow: 0 -50px 0 0 var(--wp--preset--color--tertiary) inset;
+			}
+		}
+
+		&.has-base-background-color {
+			background-color: transparent !important;
+			box-shadow: 0 -9px var(--wp--preset--color--base) inset;
+
+			&:hover,
+			&:focus {
+				color: var(--wp--preset--color--contrast);
+				box-shadow: 0 -50px 0 0 var(--wp--preset--color--base) inset;
+			}
+		}
+
+		&.has-contrast-background-color {
+			background-color: transparent !important;
+			box-shadow: 0 -9px var(--wp--preset--color--contrast) inset;
+
+			&:hover,
+			&:focus {
+				box-shadow: 0 -50px 0 0 var(--wp--preset--color--contrast) inset;
+			}
+		}
+	}
+}
+
+.is-style-journal-notes-no-background {
+
+	& .wp-element-button {
+		color: var(--wp--preset--color--contrast);
+		background-color: transparent;
+		border: 0;
+
+		&:hover,
+		&:focus {
+			transform: scale(1.2) perspective(1px);
+			color: var(--wp--preset--color--contrast);
+			border: 0;
+		}
+
+		&.has-primary-background-color {
+			background-color: transparent !important;
+			color: var(--wp--preset--color--primary) !important;
+
+			&:hover,
+			&:focus {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--primary) !important;
+				border: 0;
+			}
+		}
+
+		&.has-secondary-background-color {
+			background-color: transparent !important;
+			color: var(--wp--preset--color--secondary) !important;
+
+			&:hover,
+			&:focus {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--secondary) !important;
+				border: 0;
+			}
+		}
+
+		&.has-tertiary-background-color {
+			background-color: transparent !important;
+			color: var(--wp--preset--color--tertiary) !important;
+			border: 0;
+
+			&:hover,
+			&:focus {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--tertiary) !important;
+			}
+		}
+
+		&.has-base-background-color {
+			background-color: transparent !important;
+			color: var(--wp--preset--color--base) !important;
+			border: 0;
+
+			&:hover,
+			&:focus {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--base) !important;
+			}
+		}
+
+		&.has-contrast-background-color {
+			background-color: transparent !important;
+			color: var(--wp--preset--color--background) !important;
+			border: 0;
+
+			&:hover,
+			&:focus {
+				background-color: transparent !important;
+				color: var(--wp--preset--color--background) !important;
+			}
+		}
+	}
+}
