@@ -127,16 +127,20 @@ function crosswinds_framework_child_starter_register_block_patterns() {
 			'label'         => __( '404', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
-		'crosswinds-framework-child-starter-footer'  => array(
-			'label'         => __( 'Footer', 'crosswinds-framework-child-starter' ),
+		'crosswinds-framework-child-starter-archive'  => array(
+			'label'         => __( 'Archive', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
-		'crosswinds-framework-child-starter-header'  => array(
-			'label'         => __( 'Header', 'crosswinds-framework-child-starter' ),
+		'crosswinds-framework-child-starter-page'  => array(
+			'label'         => __( 'Page Parts', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
 		'crosswinds-framework-child-starter-search'  => array(
 			'label'         => __( 'Search', 'crosswinds-framework-child-starter' ),
+			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
+		),
+		'crosswinds-framework-child-starter-site-titles'  => array(
+			'label'         => __( 'Site Titles', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
 	);
