@@ -203,6 +203,10 @@ function crosswinds_framework_child_starter_register_block_patterns() {
 			'label'         => __( 'Search & Filters Sections', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
+		'crosswinds-framework-child-starter-single-posts'  => array(
+			'label'         => __( 'Single Posts', 'crosswinds-framework-child-starter' ),
+			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
+		),
 		'crosswinds-framework-child-starter-site-titles'  => array(
 			'label'         => __( 'Site Titles', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
@@ -231,6 +235,20 @@ function crosswinds_framework_child_starter_register_block_patterns() {
 	}
 }
 add_action( 'init', 'crosswinds_framework_child_starter_register_block_patterns', 9 );
+
+// Remove unneeded patterns from Crosswinds.
+function crosswinds_framework_child_starter_remove_core_patterns() {
+	$core_block_patterns = array(
+		'query-pattern-grid',
+		'query-pattern-list-columns',
+		'query-pattern-list',
+	);
+
+	foreach ( $core_block_patterns as $core_block_pattern ) {
+		unregister_block_pattern( 'crosswinds-framework/' . $core_block_pattern );
+	}
+}
+add_action( 'init', 'crosswinds_framework_child_starter_remove_core_patterns' );
 
 // Load the functionality to require certain plugins.
 include get_template_directory() . '/inc/tgmpa/class-tgm-plugin-activation.php';
@@ -264,3 +282,8 @@ function crosswinds_framework_child_starter_register_required_plugins() {
 	tgmpa( $plugins, $config );
 }
 add_action( 'tgmpa_register', 'crosswinds_framework_child_starter_register_required_plugins' );
+
+//* Enable all blocks that are required to run the theme.
+add_filter( 'crosswinds_blocks_enable_single-content_block', function(){
+	return true;
+} );
