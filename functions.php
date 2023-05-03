@@ -199,6 +199,10 @@ function crosswinds_framework_child_starter_register_block_patterns() {
 			'label'         => __( 'Search', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
 		),
+		'crosswinds-framework-child-starter-search-filters'  => array(
+			'label'         => __( 'Search & Filters Sections', 'crosswinds-framework-child-starter' ),
+			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
+		),
 		'crosswinds-framework-child-starter-site-titles'  => array(
 			'label'         => __( 'Site Titles', 'crosswinds-framework-child-starter' ),
 			'categoryTypes' => array( 'crosswinds-framework-child-starter' ),
