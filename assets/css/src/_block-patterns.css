@@ -1,0 +1,19 @@
+.site-content {
+
+	& .search-filters:not(.alignfull) {
+
+		& > .alignwide {
+			margin: 0 !important;
+		}
+	
+		& .wp-block-search__button {
+			height: 43px;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	
+		& .wp-block-search__input {
+			margin-bottom: 0;
+		}
+	}
+}

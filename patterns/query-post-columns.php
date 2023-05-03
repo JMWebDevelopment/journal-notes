@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Query - Post Columns
- * Slug: Journal Notes/query-post-columns
+ * Slug: journal-notes/query-post-columns
  * Categories: crosswinds-framework-queries
  * Block Types: core/query
  * Viewport Width: 800

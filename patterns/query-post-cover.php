@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Query - Post with Cover
- * Slug: Journal Notes/query-post-cover
+ * Slug: journal-notes/query-post-cover
  * Categories: crosswinds-framework-queries
  * Block Types: core/query
  * Viewport Width: 800
