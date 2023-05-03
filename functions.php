@@ -105,6 +105,66 @@ foreach ( $list_styles as $style ) {
 	);
 }
 
+$block_styles = array(
+	array(
+		'name'  => 'normal',
+		'label' => __( 'Normal', 'crosswinds-framework-child-starter' ),
+		'inline_style' => '',
+		'is_default'   => true,
+	),
+	array(
+		'name'  => 'round-edges',
+		'label' => __( 'Round Edges', 'crosswinds-framework-child-starter' ),
+		'inline_style' => '.is-style-round-edges {
+			border-radius: 12px;
+			overflow: hidden;
+		}',
+	),
+	array(
+		'name'  => 'primary-soft-drop-shadow',
+		'label' => __( 'Primary Soft Drop Shadow', 'crosswinds-framework-child-starter' ),
+		'inline_style' => '.is-style-primary-soft-drop-shadow {
+			box-shadow: 0 5px 20px 0 var(--wp--preset--color--primary)
+		}',
+	),
+	array(
+		'name'  => 'primary-hard-drop-shadow',
+		'label' => __( 'Primary Hard Drop Shadow', 'crosswinds-framework-child-starter' ),
+		'inline_style' => '.is-style-primary-hard-drop-shadow {
+			box-shadow: 10px 10px 0 0 var(--wp--preset--color--primary)
+		}',
+	),
+);
+
+$blocks = array(
+	'core/group',
+	'core/columns',
+	'core/button',
+	'core/image',
+	'core/cover',
+	'core/table',
+	'core/pullquote',
+	'core/quote',
+	'core/calendar',
+	'core/social-links',
+);
+
+// Loop through each block to add the block styles to them.
+foreach ( $blocks as $block ){
+
+	foreach ( $block_styles as $block_style ) {
+
+		if ( ('core/button' === $block && 'normal' === $block_style['name']) || ( 'core/table' === $block && 'normal' === $block_style['name'] ) || ( 'core/quote' === $block && 'normal' === $block_style['name'] ) || ( 'core/image' === $block && 'normal' === $block_style['name'] ) || ( 'core/cover' === $block && 'normal' === $block_style['name'] ) || ( 'core/calendar' === $block && 'normal' === $block_style['name'] ) ) {
+			continue;
+		}
+
+		register_block_style(
+			$block,
+			$block_style
+		);
+	}
+}
+
 // Include block patterns.
 /**
  * Registers block patterns, categories, and type.
