@@ -8,7 +8,7 @@
 ?>
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"className":"post-header post-header-columns","layout":{"type":"constrained"}} -->
-<div class="wp-block-group post-header post-header-columns"><!-- wp:post-title {"textAlign":"center","fontSize":"max-60"} /-->
+<div class="wp-block-group post-header post-header-columns"><!-- wp:post-title {"textAlign":"center","level":1,"fontSize":"max-60"} /-->
 
 <!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"66.66%"} -->
