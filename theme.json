@@ -796,8 +796,28 @@
 			"postTypes": [ "page" ]
 		},
 		{
-			"name": "post-right-sidebar",
-			"title": "Post with Right Sidebar",
+			"name": "post-cover-header",
+			"title": "Post with Cover Header",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "post-columns-header",
+			"title": "Post with Columns Header",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "post-cover-header-right-sidebar",
+			"title": "Post with Cover Header and Right Sidebar",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "post-columns-header-right-sidebar",
+			"title": "Post with Columns Header and Right Sidebar",
+			"postTypes": [ "post" ]
+		},
+		{
+			"name": "post-column-header-right-sidebar",
+			"title": "Post with Column Header and Right Sidebar",
 			"postTypes": [ "post" ]
 		}
 	]
