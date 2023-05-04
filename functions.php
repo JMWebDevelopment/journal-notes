@@ -249,6 +249,9 @@ function crosswinds_framework_child_starter_remove_core_patterns() {
 		'archive-content-left-sidebar',
 		'archive-content-no-sidebar',
 		'archive-content-right-sidebar',
+		'error-content-left-sidebar',
+		'page-content-left-sidebar',
+		'post-content-left-sidebar',
 		''
 	);
 
