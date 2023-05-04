@@ -771,28 +771,33 @@
 	],
 	"customTemplates": [
 		{
-			"name": "page-no-page-header",
-			"title": "Page with RNo Page Header",
+			"name": "page-cover-title",
+			"title": "Page with Cover Title",
 			"postTypes": [ "page" ]
 		},
 		{
-			"name": "page-right-sidebar",
-			"title": "Page with Right Sidebar",
+			"name": "page-background-title",
+			"title": "Page with Background Title",
 			"postTypes": [ "page" ]
 		},
 		{
-			"name": "page-left-sidebar",
-			"title": "Page with Left Sidebar",
+			"name": "page-cover-title-right-sidebar",
+			"title": "Page with Cover Title and Right Sidebar",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-background-title-right-sidebar",
+			"title": "Page with Background Title and Right Sidebar",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "page-no-background-title-right-sidebar",
+			"title": "Page with No Background Title and Right Sidebar",
 			"postTypes": [ "page" ]
 		},
 		{
 			"name": "post-right-sidebar",
 			"title": "Post with Right Sidebar",
-			"postTypes": [ "post" ]
-		},
-		{
-			"name": "post-left-sidebar",
-			"title": "Post with Left Sidebar",
 			"postTypes": [ "post" ]
 		}
 	]
