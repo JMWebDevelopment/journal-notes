@@ -246,6 +246,10 @@ function crosswinds_framework_child_starter_remove_core_patterns() {
 		'query-pattern-grid',
 		'query-pattern-list-columns',
 		'query-pattern-list',
+		'archive-content-left-sidebar',
+		'archive-content-no-sidebar',
+		'archive-content-right-sidebar',
+		''
 	);
 
 	foreach ( $core_block_patterns as $core_block_pattern ) {
