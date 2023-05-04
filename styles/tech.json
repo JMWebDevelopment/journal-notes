@@ -173,6 +173,29 @@
 					]
 				},
 				{
+					"fontFamily": "\"Open Sans\", serif",
+					"name": "Open Sans",
+					"slug": "open-sans",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Open Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/open-sans/open-sans-variable.woff2" ]
+						},
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Open Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [ "file:./assets/webfonts/open-sans/open-sans-italic-variable.woff2" ]
+						}
+					]
+				},
+				{
 					"fontFamily": "\"Chivo Mono\", serif",
 					"name": "Chivo Mono",
 					"slug": "chivo-mono",
