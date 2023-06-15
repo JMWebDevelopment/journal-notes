@@ -7,8 +7,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|xx-small"},"blockGap":"var:preset|spacing|xx-small"}},"backgroundColor":"tertiary","className":"search-filters search-filters-categories-only","layout":{"type":"constrained"}} -->
-<div class="wp-block-group search-filters search-filters-categories-only has-tertiary-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--xx-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--xx-small)"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|xx-small"},"blockGap":"var:preset|spacing|xx-small"}},"backgroundColor":"quaternary","className":"search-filters search-filters-categories-only","layout":{"type":"constrained"}} -->
+<div class="wp-block-group search-filters search-filters-categories-only has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--xx-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--xx-small)"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
 <h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php _e( 'Select a Category', 'journal-notes' ); ?></h2>
 <!-- /wp:heading -->
 
