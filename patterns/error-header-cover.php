@@ -2,7 +2,7 @@
 /**
  * Title: 404 Header - Cover
  * Slug: journal-notes/error-header-cover
- * Categories: crosswinds-framework-child-starter-404
+ * Categories: crosswinds-framework-404
  * Viewport Width: 1200
  */
 ?>

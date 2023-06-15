@@ -10,7 +10,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"10px","padding":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}},"border":{"width":"0px","style":"none"}},"backgroundColor":"base","className":"widget widget-title-borders","layout":{"type":"constrained"}} -->
 <div class="wp-block-group widget widget-title-borders has-base-background-color has-background" style="border-style:none;border-width:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"10px","right":"10px","bottom":"10px","left":"10px"}},"border":{"top":{"color":"var:preset|color|contrast","width":"1px"},"bottom":{"color":"var:preset|color|contrast","width":"1px"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--contrast);border-top-width:1px;border-bottom-color:var(--wp--preset--color--contrast);border-bottom-width:1px;padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px"><!-- wp:heading {"textAlign":"center","textColor":"background","fontSize":"medium"} -->
-<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-medium-font-size"><?php _e( 'Widget Title', 'crosswinds-framework-child-starter' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-background-color has-text-color has-medium-font-size"><?php _e( 'Widget Title', 'journal-notes' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 

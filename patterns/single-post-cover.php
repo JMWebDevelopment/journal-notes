@@ -2,7 +2,7 @@
 /**
  * Title: Single Post - Cover
  * Slug: journal-notes/single-post-cover
- * Categories: crosswinds-framework-child-starter-single-posts
+ * Categories: crosswinds-framework-posts
  * Viewport Width: 800
  */
 ?>

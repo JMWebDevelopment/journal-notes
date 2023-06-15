@@ -31,7 +31,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"align":"center","placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p class="has-text-align-center"><?php _e( 'There are no posts here. Sorry.', 'crosswinds-framework-child-starter' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'There are no posts here. Sorry.', 'journal-notes' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->

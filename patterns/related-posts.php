@@ -9,7 +9,7 @@
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"2rem","bottom":"2rem"}}},"className":"related-posts-section","layout":{"type":"constrained"}} -->
 <div class="wp-block-group related-posts-section" style="padding-top:2rem;padding-bottom:2rem"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php _e( 'Related Posts', 'crosswinds-framework-child-starter' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php _e( 'Related Posts', 'journal-notes' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:crosswinds-blocks/related-posts -->

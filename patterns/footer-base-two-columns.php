@@ -19,7 +19,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"fontSize":"large"} -->
-<h2 class="wp-block-heading has-large-font-size"><?php _e( 'Menu Title', 'crosswinds-framework-child-starter' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php _e( 'Menu Title', 'journal-notes' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:navigation {"overlayMenu":"never","layout":{"type":"flex","justifyContent":"left","orientation":"vertical"},"style":{"typography":{"fontStyle":"normal","fontWeight":"400"},"spacing":{"blockGap":"10px"}},"fontSize":"Regular"} -->

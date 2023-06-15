@@ -24,7 +24,7 @@
 
 <!-- wp:post-excerpt /-->
 
-<!-- wp:read-more {"content":"<?php _e( 'Read This Post', 'crosswinds-framework-child-starter' ); ?>","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small","left":"var:preset|spacing|xx-small"}},"typography":{"fontStyle":"italic","fontWeight":"600"},"border":{"width":"1px"}},"borderColor":"contrast","backgroundColor":"contrast","textColor":"base","fontFamily":"heading"} /--></div>
+<!-- wp:read-more {"content":"<?php _e( 'Read This Post', 'journal-notes' ); ?>","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|xx-small","left":"var:preset|spacing|xx-small"}},"typography":{"fontStyle":"italic","fontWeight":"600"},"border":{"width":"1px"}},"borderColor":"contrast","backgroundColor":"contrast","textColor":"base","fontFamily":"heading"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
@@ -39,7 +39,7 @@
 
 <!-- wp:query-no-results -->
 <!-- wp:paragraph {"align":"center","placeholder":"Add text or blocks that will display when a query returns no results."} -->
-<p class="has-text-align-center"><?php _e( 'There are no posts here. Sorry.', 'crosswinds-framework-child-starter' ); ?></p>
+<p class="has-text-align-center"><?php _e( 'There are no posts here. Sorry.', 'journal-notes' ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query -->

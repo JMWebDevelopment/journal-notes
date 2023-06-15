@@ -2,7 +2,7 @@
 /**
  * Title: Site Title with Cover
  * Slug: journal-notes/site-title-cover
- * Categories: crosswinds-framework-child-starter-site-titles
+ * Categories: crosswinds-framework-site-titles
  * Viewport Width: 1440
  */
 ?>

@@ -2,7 +2,7 @@
 /**
  * Title: Site Title with No Background
  * Slug: journal-notes/site-title-no-background
- * Categories: crosswinds-framework-child-starter-site-titles
+ * Categories: crosswinds-framework-site-titles
  * Viewport Width: 1440
  */
 ?>

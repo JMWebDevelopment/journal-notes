@@ -2,7 +2,7 @@
 /**
  * Title: 404 Header - No Background
  * Slug: journal-notes/error-header-no-background
- * Categories: crosswinds-framework-child-starter-404
+ * Categories: crosswinds-framework-404
  * Viewport Width: 1200
  */
 ?>
