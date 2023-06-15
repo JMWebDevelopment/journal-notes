@@ -48,7 +48,7 @@ export const PHPCSOptions = {
 export const nameFieldDefaults = {
 	author: 'Jacob Martella Web Development',
 	PHPNamespace: 'JM_Web_Development\\Crosswinds_Framework_Child_Starter',
-	slug: 'journal-notes',
+	slug: 'crosswinds-framework-child-starter',
 	name: 'Crosswinds Framework Child Starter Theme',
 	underscoreCase: 'crosswinds_framework_child_starter',
 	constant: 'CROSSWINDS_FRAMEWORK_CHILD_STARTER',
