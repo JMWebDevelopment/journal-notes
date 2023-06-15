@@ -1,0 +1,364 @@
+{
+	"version": 2,
+	"title": "Blue",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#000000",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#f5f5f5",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#D6DCE2",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#ADB5BD",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#6C757D",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#343A40",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#bdbdbd",
+					"name": "Neutral",
+					"slug": "neutral"
+				}
+			],
+			"gradients": [
+				{
+					"slug": "d-primary-background",
+					"gradient": "linear-gradient(to bottom right, #D6DCE2 59.9%,#000000 60%)",
+					"name": "Diagonal primary to background"
+				},
+				{
+					"slug": "d-background-primary",
+					"gradient": "linear-gradient(to bottom right, #000000 59.9%, #D6DCE2 60%)",
+					"name": "Diagonal background to primary"
+				},
+				{
+					"slug": "d-primary-secondary",
+					"gradient": "linear-gradient(to bottom right,#D6DCE2 59.9%,#ADB5BD 60%)",
+					"name": "Diagonal primary to secondary"
+				},
+				{
+					"slug": "d-secondary-primary",
+					"gradient": "linear-gradient(to bottom right, #ADB5BD 59.9%, #D6DCE2 60%)",
+					"name": "Diagonal secondary to primary"
+				},
+				{
+					"slug": "d-primary-tertiary",
+					"gradient": "linear-gradient(to bottom right,#D6DCE2 59.9%,#6C757D 60%)",
+					"name": "Diagonal primary to tertiary"
+				},
+				{
+					"slug": "d-tertiary-primary",
+					"gradient": "linear-gradient(to bottom right, #6C757D 59.9%, #D6DCE2 60%)",
+					"name": "Diagonal tertiary to primary"
+				},
+				{
+					"slug": "d-secondary-tertiary",
+					"gradient": "linear-gradient(to bottom right,#ADB5BD 59.9%,#6C757D 60%)",
+					"name": "Diagonal primary to secondary"
+				},
+				{
+					"slug": "d-tertiary-secondary",
+					"gradient": "linear-gradient(to bottom right, #6C757D 59.9%, #ADB5BD 60%)",
+					"name": "Diagonal tertiary to secondary"
+				},
+				{
+					"slug": "h-primary-transparent",
+					"gradient": "linear-gradient(#D6DCE2 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-primary",
+					"gradient": "linear-gradient(transparent 69.9%,#D6DCE2 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-secondary-transparent",
+					"gradient": "linear-gradient(#ADB5BD 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-secondary",
+					"gradient": "linear-gradient(transparent 69.9%,#ADB5BD 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-tertiary-transparent",
+					"gradient": "linear-gradient(#6C757D 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-tertiary",
+					"gradient": "linear-gradient(transparent 69.9%,#6C757D 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-quaternary-transparent",
+					"gradient": "linear-gradient(#343A40 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-quaternary",
+					"gradient": "linear-gradient(transparent 69.9%,#343A40 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-base-transparent",
+					"gradient": "linear-gradient(#000000 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-base",
+					"gradient": "linear-gradient(transparent 69.9%,#000000 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-contrast-transparent",
+					"gradient": "linear-gradient(#f5f5f5 69.9%,transparent 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-transparent-contrast",
+					"gradient": "linear-gradient(transparent 69.9%,#f5f5f5 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-primary-backround",
+					"gradient": "linear-gradient(#D6DCE2 69.9%,#000000 70%)",
+					"name": "Horizontal primary to background"
+				},
+				{
+					"slug": "h-background-primary",
+					"gradient": "linear-gradient(#000000 69.9%,#D6DCE2 70%)",
+					"name": "Horizontal background to primary"
+				},
+				{
+					"slug": "h-primary-secondary",
+					"gradient": "linear-gradient(#D6DCE2 69.9%,#ADB5BD 70%)",
+					"name": "Horizontal primary to secondary"
+				},
+				{
+					"slug": "h-secondary-primary",
+					"gradient": "linear-gradient(#ADB5BD 69.9%,#D6DCE2 70%)",
+					"name": "Horizontal secondary to primary"
+				},
+				{
+					"slug": "h-primary-tertiary",
+					"gradient": "linear-gradient(#D6DCE2 69.9%,#6C757D 70%)",
+					"name": "Horizontal primary to tertiary"
+				},
+				{
+					"slug": "h-tertiary-primary",
+					"gradient": "linear-gradient(#6C757D 69.9%,#D6DCE2 70%)",
+					"name": "Horizontal tertiary to primary"
+				},
+				{
+					"slug": "h-secondary-tertiary",
+					"gradient": "linear-gradient(#ADB5BD 69.9%,#6C757D 70%)",
+					"name": "Horizontal primary to secondary"
+				},
+				{
+					"slug": "h-tertiary-secondary",
+					"gradient": "linear-gradient(#6C757D 69.9%,#ADB5BD 70%)",
+					"name": "Horizontal tertiary to secondary"
+				},
+				{
+					"slug": "v-primary-transparent",
+					"gradient": "linear-gradient(to right, #D6DCE2 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-primary",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#D6DCE2 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-secondary-transparent",
+					"gradient": "linear-gradient(to right, #ADB5BD 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-secondary",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#ADB5BD 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-tertiary-transparent",
+					"gradient": "linear-gradient(to right, #6C757D 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-tertiary",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#6C757D 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-quaternary-transparent",
+					"gradient": "linear-gradient(to right, #343A40 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-quaternary",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#343A40 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-base-transparent",
+					"gradient": "linear-gradient(to right, #000000 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-base",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#000000 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-contrast-transparent",
+					"gradient": "linear-gradient(to right, #f5f5f5 69.9%,transparent 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-contrast",
+					"gradient": "linear-gradient(to right, transparent 69.9%,#f5f5f5 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-primary-transparent-reverse",
+					"gradient": "linear-gradient(to right, #D6DCE2 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-primary-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#D6DCE2 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-secondary-transparent-reverse",
+					"gradient": "linear-gradient(to right, #ADB5BD 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-secondary-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#ADB5BD 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-tertiary-transparent-reverse",
+					"gradient": "linear-gradient(to right, #6C757D 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-tertiary-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#6C757D 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-quaternary-transparent-reverse",
+					"gradient": "linear-gradient(to right, #343A40 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-quaternary-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#343A40 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-base-transparent-reverse",
+					"gradient": "linear-gradient(to right, #000000 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-base-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#000000 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-contrast-transparent-reverse",
+					"gradient": "linear-gradient(to right, #f5f5f5 34.9%,transparent 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-transparent-contrast-reverse",
+					"gradient": "linear-gradient(to right, transparent 34.9%,#D6DCE2 35%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-primary-background",
+					"gradient": "linear-gradient(to right, #D6DCE2 69.9%,#000000 70%)",
+					"name": "Vertical primary to background"
+				},
+				{
+					"slug": "v-background-primary",
+					"gradient": "linear-gradient(to right, #000000 69.9%,#D6DCE2 70%)",
+					"name": "Vertical background to primary"
+				},
+				{
+					"slug": "v-primary-secondary",
+					"gradient": "linear-gradient(to right, #D6DCE2 69.9%,#ADB5BD 70%)",
+					"name": "Vertical primary to secondary"
+				},
+				{
+					"slug": "v-secondary-primary",
+					"gradient": "linear-gradient(to right, #ADB5BD 69.9%,#D6DCE2 70%)",
+					"name": "Vertical secondary to primary"
+				},
+				{
+					"slug": "v-primary-tertiary",
+					"gradient": "linear-gradient(to right, #D6DCE2 69.9%,#6C757D 70%)",
+					"name": "Vertical primary to tertiary"
+				},
+				{
+					"slug": "v-tertiary-primary",
+					"gradient": "linear-gradient(to right, #6C757D 69.9%,#D6DCE2 70%)",
+					"name": "Vertical tertiary to primary"
+				},
+				{
+					"slug": "v-secondary-tertiary",
+					"gradient": "linear-gradient(to right, #ADB5BD 69.9%,#6C757D 70%)",
+					"name": "Vertical secondary to tertiary"
+				},
+				{
+					"slug": "v-tertiary-secondary",
+					"gradient": "linear-gradient(to right, #6C757D 69.9%,#ADB5BD 70%)",
+					"name": "Vertical tertiary to secondary"
+				}
+			],
+			"duotone": [
+				{
+					"colors": [ "#D6DCE2","#ADB5BD" ],
+					"slug": "primary-secondary",
+					"name": "Primary and Secondary"
+				},
+				{
+					"colors": [ "#ADB5BD","#6C757D" ],
+					"slug": "secondary-tertiary",
+					"name": "Secondary and Tertiary"
+				},
+				{
+					"colors": [ "#6C757D","#D6DCE2" ],
+					"slug": "tertiary-primary",
+					"name": "Tertiary and Primary"
+				}
+			]
+		}
+	}
+}

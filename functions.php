@@ -196,6 +196,15 @@ function journal_notes_remove_core_patterns() {
 		'query-pattern-grid',
 		'query-pattern-list-columns',
 		'query-pattern-list',
+		'error-header-base-centered',
+		'error-header-base-left',
+		'error-header-contrast-centered',
+		'error-header-contrast-left',
+		'search-header-base-centered',
+		'search-header-base-left',
+		'search-header-contrast-centered',
+		'search-header-contrast-left',
+		''
 	);
 
 	foreach ( $core_block_patterns as $core_block_pattern ) {
