@@ -29,6 +29,7 @@
 !/parts/
 !/patterns/
 !/styles/
+!/admin/
 
 !.babelrc
 !composer.json
