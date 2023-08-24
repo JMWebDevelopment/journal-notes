@@ -1,0 +1,841 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Journal Notes\n"
+"POT-Creation-Date: 2023-08-17 16:46-0500\n"
+"PO-Revision-Date: 2023-08-17 16:48-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/journal-notes-admin-settings.php:14
+#, fuzzy
+msgid "View More Crosswinds Framework Themes"
+msgstr "अधिक क्रॉसविंड्स फ्रेमवर्क थीम्स देखें"
+
+#: admin/journal-notes-admin-settings.php:16
+#, fuzzy
+msgid ""
+"Want to take your website to the next level? Checkout the preimum Crosswinds "
+"Framework themes! From a portfolio to an online store to a newspaper website "
+"and more, the Crosswinds Framework themes will help you create a great "
+"website."
+msgstr ""
+"क्या आप अपनी वेबसाइट को अगले स्तर पर ले जाना चाहते हैं? प्रीमियम क्रॉसविंड्स फ्रेमवर्क थीम "
+"चेकआउट करें! एक पोर्टफोलियो से लेकर एक ऑनलाइन स्टोर से लेकर एक अखबार की वेबसाइट और बहुत "
+"कुछ तक, क्रॉसविंड्स फ्रेमवर्क थीम आपको एक बेहतरीन वेबसाइट बनाने में मदद करेगी।"
+
+#: admin/journal-notes-admin-settings.php:17
+#, fuzzy
+msgid "View Crosswinds Framework Themes"
+msgstr "क्रॉसविंड्स फ्रेमवर्क थीम्स देखें"
+
+#. translators: %s: Search term.
+#: functions.php:59
+#, fuzzy, php-format
+msgid "Search results for \"%s\""
+msgstr "\"%s\" के लिए खोज परिणाम"
+
+#: functions.php:59
+#, fuzzy
+msgid "Search results"
+msgstr "खोज के परिणाम"
+
+#: functions.php:68
+#, fuzzy
+msgid "Full-height"
+msgstr "पूर्ण उँचाई"
+
+#: functions.php:76
+#, fuzzy
+msgid "Underlined"
+msgstr "रेखांकित"
+
+#: functions.php:83
+#, fuzzy
+msgid "No Background"
+msgstr "कोई पृष्ठभूमि नहीं"
+
+#: functions.php:90
+#, fuzzy
+msgid "Chevron Right"
+msgstr "शेवरॉन सही"
+
+#: functions.php:94
+#, fuzzy
+msgid "Checkmark"
+msgstr "सही का निशान"
+
+#: functions.php:98
+#, fuzzy
+msgid "Dash"
+msgstr "थोड़ा सा"
+
+#: functions.php:111
+msgid "Normal"
+msgstr "सामान्य"
+
+#: functions.php:117
+#, fuzzy
+msgid "Round Edges"
+msgstr "गोल किनारे"
+
+#: functions.php:125
+#, fuzzy
+msgid "Primary Soft Drop Shadow"
+msgstr "प्राइमरी सॉफ्ट ड्रॉप शैडो"
+
+#: functions.php:132
+#, fuzzy
+msgid "Primary Hard Drop Shadow"
+msgstr "प्राथमिक हार्ड ड्रॉप छाया"
+
+#: functions.php:238
+#, fuzzy
+msgid ""
+"Welcome to Journal Notes and the Crosswinds Framework! With the power of "
+"this theme as well as the Crosswinds Blocks plugin, you can quickly create "
+"an amazing blog. On this page you'll be able to set up the blocks plugin to "
+"your liking, add your theme license, set up the theme for your website and "
+"find links to manage your account, read through documentation and so much "
+"more. You'll be able to create an amazing blog in no time!"
+msgstr ""
+"जर्नल नोट्स और क्रॉसविंड्स फ्रेमवर्क में आपका स्वागत है! इस थीम की शक्ति के साथ-साथ "
+"क्रॉसविंड्स ब्लॉक प्लगइन के साथ, आप जल्दी से एक अद्भुत ब्लॉग बना सकते हैं। इस पृष्ठ पर आप "
+"अपनी पसंद के अनुसार ब्लॉक प्लगइन सेट कर सकेंगे, अपना थीम लाइसेंस जोड़ सकेंगे, अपनी वेबसाइट के "
+"लिए थीम सेट कर सकेंगे और अपने खाते को प्रबंधित करने के लिए लिंक ढूंढ सकेंगे, दस्तावेज़ पढ़ सकेंगे "
+"और भी बहुत कुछ कर सकेंगे। आप कुछ ही समय में एक अद्भुत ब्लॉग बनाने में सक्षम होंगे!"
+
+#: functions.php:247 functions.php:249
+#, fuzzy
+msgid "Report an Issue"
+msgstr "मामले की रिपोर्ट करें"
+
+#: functions.php:248
+#, fuzzy
+msgid ""
+"If you come across an issue with Journal Notes, the Crosswinds Framework or "
+"Crosswinds Blocks, please report the issue via the form on the page linked "
+"to below. Thank you!"
+msgstr ""
+"यदि आपको जर्नल नोट्स, क्रॉसविंड्स फ्रेमवर्क या क्रॉसविंड्स ब्लॉक्स के साथ कोई समस्या आती है, "
+"तो कृपया नीचे दिए गए पेज पर दिए गए फॉर्म के माध्यम से समस्या की रिपोर्ट करें। धन्यवाद!"
+
+#: functions.php:259 functions.php:261
+#, fuzzy
+msgid "Suggest a Feature"
+msgstr "एक विशेषता सुझाएँ"
+
+#: functions.php:260
+#, fuzzy
+msgid ""
+"New ideas are always welcome! If you have an idea for a new feature for "
+"Journal Notes, the Crosswinds Framework and/or Crosswinds Block, you can "
+"submit it through the form on the page linked to below! Thank you!"
+msgstr ""
+"नए विचारों का हमेशा स्वागत है! यदि आपके पास जर्नल नोट्स, क्रॉसविंड्स फ्रेमवर्क और/या "
+"क्रॉसविंड्स ब्लॉक के लिए एक नई सुविधा का कोई विचार है, तो आप इसे नीचे दिए गए पेज पर "
+"दिए गए फॉर्म के माध्यम से सबमिट कर सकते हैं! धन्यवाद!"
+
+#: functions.php:271
+#, fuzzy
+msgid "Check Out the Documentation"
+msgstr "दस्तावेज़ीकरण की जाँच करें"
+
+#: functions.php:272
+#, fuzzy
+msgid ""
+"Learn how you can get started using Journal Notes and the Crosswinds "
+"Framework for your website by visiting the documentation at the link below."
+msgstr ""
+"नीचे दिए गए लिंक पर दस्तावेज़ पर जाकर जानें कि आप अपनी वेबसाइट के लिए जर्नल नोट्स और "
+"क्रॉसविंड फ्रेमवर्क का उपयोग कैसे शुरू कर सकते हैं।"
+
+#: functions.php:273
+msgid "View Documentation"
+msgstr "दस्तावेज़ीकरण देखें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+#, fuzzy
+msgid "Install Required Plugins"
+msgstr "आवश्यक प्लगिन स्थापित करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+#, fuzzy
+msgid "Install Plugins"
+msgstr "प्लगइन्स इंस्टॉल करें"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "प्लगइन स्थापित करना:  %s"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "प्लगइन अपडेट करना: %s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+#, fuzzy
+msgid "Something went wrong with the plugin API."
+msgstr "प्लगइन एपीआई में कुछ गड़बड़ हो गई।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#, fuzzy, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "इस थीम के लिए निम्नलिखित प्लगइन की आवश्यकता है: %1$s."
+msgstr[1] "इस थीम के लिए निम्नलिखित प्लगइन्स की आवश्यकता है: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:349
+#, fuzzy, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "यह थीम निम्नलिखित प्लगइन की अनुशंसा करती है: %1$s."
+msgstr[1] "यह थीम निम्नलिखित प्लगइन्स की अनुशंसा करती है: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:355
+#, fuzzy, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"इस थीम के साथ अधिकतम अनुकूलता सुनिश्चित करने के लिए निम्नलिखित प्लगइन को इसके नवीनतम "
+"संस्करण में अद्यतन करने की आवश्यकता है: %1$s।"
+msgstr[1] ""
+"इस थीम के साथ अधिकतम अनुकूलता सुनिश्चित करने के लिए निम्नलिखित प्लगइन्स को उनके नवीनतम "
+"संस्करण में अद्यतन करने की आवश्यकता है: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+#, fuzzy, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "इसके लिए एक अपडेट उपलब्ध है: %1$s."
+msgstr[1] "निम्नलिखित प्लगइन्स के लिए अपडेट उपलब्ध हैं: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:367
+#, fuzzy, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "निम्नलिखित आवश्यक प्लगइन वर्तमान में निष्क्रिय है: %1$s।"
+msgstr[1] "निम्नलिखित आवश्यक प्लगइन्स वर्तमान में निष्क्रिय हैं: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:373
+#, fuzzy, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "निम्नलिखित अनुशंसित प्लगइन वर्तमान में निष्क्रिय है: %1$s।"
+msgstr[1] "निम्नलिखित अनुशंसित प्लगइन्स वर्तमान में निष्क्रिय हैं: %1$s।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+#, fuzzy
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "प्लगइन इंस्टॉल करना शुरू करें"
+msgstr[1] "प्लगइन्स इंस्टॉल करना शुरू करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+#, fuzzy
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "प्लगइन अपडेट करना प्रारंभ करें"
+msgstr[1] "प्लगइन्स अपडेट करना शुरू करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+#, fuzzy
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "प्लगइन सक्रिय करना प्रारंभ करें"
+msgstr[1] "प्लगइन्स सक्रिय करना प्रारंभ करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+#, fuzzy
+msgid "Return to Required Plugins Installer"
+msgstr "आवश्यक प्लगइन इंस्टॉलर पर वापस आएं"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/tgmpa/class-tgm-plugin-activation.php:920
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+#: inc/tgmpa/class-tgm-plugin-activation.php:3673
+#, fuzzy
+msgid "Return to the Dashboard"
+msgstr "डाइश्बोर्ड पर वापस आएं"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/tgmpa/class-tgm-plugin-activation.php:3252
+#, fuzzy
+msgid "Plugin activated successfully."
+msgstr "प्लगइन सफलतापूर्वक सक्रिय हो गया."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/tgmpa/class-tgm-plugin-activation.php:3045
+#, fuzzy
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "निम्नलिखित प्लगइन सफलतापूर्वक सक्रिय किया गया था:"
+msgstr[1] "निम्नलिखित प्लगइन्स सफलतापूर्वक सक्रिय किए गए:"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "कोई कार्रवाई नहीं। प्लगइन %1$s पहले से ही सक्रिय था।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+#, fuzzy, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"प्लगइन सक्रिय नहीं है. इस थीम के लिए %s के उच्चतर संस्करण की आवश्यकता है. कृपया प्लगइन "
+"अपडेट करें."
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "सभी प्लगइनस इंस्टाल और सफलतापूर्वक एक्टिवेट कर दी गयी है । %1$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:402
+#, fuzzy
+msgid "Dismiss this notice"
+msgstr "इस नोटिस को खारिज करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+#, fuzzy
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr "इंस्टॉल, अपडेट या सक्रिय करने के लिए एक या अधिक आवश्यक या अनुशंसित प्लगइन्स हैं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:404
+#, fuzzy
+msgid "Please contact the administrator of this site for help."
+msgstr "कृपया सहायता के लिए इस साइट के व्यवस्थापक से संपर्क करें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:607
+#, fuzzy
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "इस प्लगइन को आपकी थीम के अनुकूल होने के लिए अद्यतन करने की आवश्यकता है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:608
+#, fuzzy
+msgid "Update Required"
+msgstr "अद्यतन आवश्यक है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:725
+#, fuzzy
+msgid "Set the parent_slug config variable instead."
+msgstr "इसके बजाय पेरेंट_स्लग कॉन्फिग वैरिएबल सेट करें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+#, fuzzy
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"रिमोट प्लगइन पैकेज में वांछित स्लग वाला कोई फ़ोल्डर नहीं है और नाम बदलने से काम नहीं हुआ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+#, fuzzy
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"कृपया प्लगइन प्रदाता से संपर्क करें और उन्हें वर्डप्रेस दिशानिर्देशों के अनुसार अपने प्लगइन को "
+"पैकेज करने के लिए कहें।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+#, fuzzy
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"रिमोट प्लगइन पैकेज में एक से अधिक फ़ाइलें होती हैं, लेकिन फ़ाइलें किसी फ़ोल्डर में पैक नहीं की "
+"जाती हैं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1214
+#: inc/tgmpa/class-tgm-plugin-activation.php:3041
+#, fuzzy
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "और"
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "टीजीएमपीए v%s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2366
+#, fuzzy
+msgid "Required"
+msgstr "आवश्यक"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2369
+#, fuzzy
+msgid "Recommended"
+msgstr "अनुशंसित"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+#, fuzzy
+msgid "WordPress Repository"
+msgstr "वर्डप्रेस रिपॉजिटरी"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2388
+#, fuzzy
+msgid "External Source"
+msgstr "वाह्य स्रोत"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2391
+#, fuzzy
+msgid "Pre-Packaged"
+msgstr "पहले से पैक किया"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2408
+#, fuzzy
+msgid "Not Installed"
+msgstr "स्थापित नहीं हे"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "इंस्टाल है, लेकिन एक्टिवेट नहीं है "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "सक्रिय"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2420
+#, fuzzy
+msgid "Required Update not Available"
+msgstr "आवश्यक अद्यतन उपलब्ध नहीं है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2423
+#, fuzzy
+msgid "Requires Update"
+msgstr "अद्यतन की आवश्यकता है"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2426
+#, fuzzy
+msgid "Update recommended"
+msgstr "अपडेट की सलाह दी गई"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2435
+#, fuzzy, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+#, fuzzy, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "सभी <span class=\"count\">(%s)</span>"
+msgstr[1] "सभी <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2485
+#, fuzzy, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "स्थापित करने के लिए <span class=\"count\">(%s)</span>"
+msgstr[1] "स्थापित करने के लिए <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2489
+#, fuzzy, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अद्यतन उपलब्ध है <span class=\"count\">(%s)</span>"
+msgstr[1] "अद्यतन उपलब्ध है <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2493
+#, fuzzy, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "सक्रिय करने के लिए <span class=\"count\">(%s)</span>"
+msgstr[1] "सक्रिय करने के लिए <span class=\"count\">(%s)</span>"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "अज्ञात"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2583
+#, fuzzy
+msgid "Installed version:"
+msgstr "स्थापित संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2591
+#, fuzzy
+msgid "Minimum required version:"
+msgstr "न्यूनतम आवश्यक संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+#, fuzzy
+msgid "Available version:"
+msgstr "उपलब्ध संस्करण:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+#, fuzzy
+msgid "No plugins to install, update or activate."
+msgstr "इंस्टॉल, अपडेट या सक्रिय करने के लिए कोई प्लगइन नहीं।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2640
+#, fuzzy
+msgid "Plugin"
+msgstr "लगाना"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2641
+#, fuzzy
+msgid "Source"
+msgstr "स्रोत"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "टाइप"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+#, fuzzy
+msgid "Version"
+msgstr "संस्करण"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "ऑर्डर स्थिति"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "स्थापित करें %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "अद्यतन %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "सक्रिय करता है %2$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2777
+#, fuzzy
+msgid "Upgrade message from the plugin author:"
+msgstr "प्लगइन लेखक से अपग्रेड संदेश:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "इन्स्टाल करें "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "अपडेट करें"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "एक्टिवेट "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2850
+#, fuzzy
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "इंस्टॉल करने के लिए कोई प्लगइन नहीं चुना गया था. कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2852
+#, fuzzy
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "अद्यतन करने के लिए कोई प्लगइन्स नहीं चुना गया था। कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2893
+#, fuzzy
+msgid "No plugins are available to be installed at this time."
+msgstr "इस समय इंस्टॉल करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2895
+#, fuzzy
+msgid "No plugins are available to be updated at this time."
+msgstr "इस समय अपडेट करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3001
+#, fuzzy
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "सक्रिय करने के लिए कोई प्लगइन नहीं चुना गया था। कोई कार्रवाई नहीं की।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3027
+#, fuzzy
+msgid "No plugins are available to be activated at this time."
+msgstr "इस समय सक्रिय करने के लिए कोई प्लगइन उपलब्ध नहीं है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3251
+#, fuzzy
+msgid "Plugin activation failed."
+msgstr "प्लगइन सक्रियण विफल रहा."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "अद्यतन कर रहा है प्लगइन %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "<strong>%2$s: </strong> %1$s स्थापित करते समय एक त्रुटि हुई।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s की इंस्टालेशन विफल रही ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"इंस्टालेशन और एक्टिवेशन की प्रक्रिया शुरू हो रही है। इस प्रक्रिया में कुछ होस्ट्स पर कुछ समय "
+"लग सकता है, तो कृपया धैर्य रखें।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s सफलतापूर्वक इन्स्टाल और एक्टिवेट कर दिया गया ।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, fuzzy
+msgid "Show Details"
+msgstr "प्रदर्शन का विवरण"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, fuzzy
+msgid "Hide Details"
+msgstr "विवरण छुपाओ"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "सभी इंस्टालेशन और एक्टिवेशन पूरी हो चुकी है।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन इन्स्टाल और एक्टिवेट हो रहा है "
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3608
+#, fuzzy
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"स्थापना प्रक्रिया प्रारंभ हो रही है. कुछ होस्टों पर इस प्रक्रिया में कुछ समय लग सकता है, "
+"इसलिए कृपया धैर्य रखें।"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s सफलतापूर्वक स्थापित किया गया है।"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3611
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "सभी इंस्टॉलेशन पूरे हो चुके हैं."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगइन इन्स्टाल हो रही है"
+
+#: patterns/callout-cover-one-column.php:13
+#: patterns/callout-cover-two-columns.php:15
+#, fuzzy
+msgid "Call to Action Title"
+msgstr "कॉल टू एक्शन शीर्षक"
+
+#: patterns/callout-cover-one-column.php:22
+#: patterns/callout-cover-two-columns.php:26
+#, fuzzy
+msgid "Call to Action Button"
+msgstr "कॉल टू एक्शन बटन"
+
+#: patterns/default-sidebar.php:14
+msgid "Calendar"
+msgstr "कैलेंडर"
+
+#: patterns/default-sidebar.php:26
+msgid "Categories"
+msgstr "श्रेणियाँ"
+
+#: patterns/default-sidebar.php:38
+#, fuzzy
+msgid "Tags"
+msgstr "टैग"
+
+#: patterns/default-sidebar.php:50
+#, fuzzy
+msgid "Latest Posts"
+msgstr "नवीनतम पोस्ट"
+
+#: patterns/default-sidebar.php:62
+#, fuzzy
+msgid "Latest Comments"
+msgstr "नवीनतम टिप्पणियां"
+
+#: patterns/error-header-background.php:13 patterns/error-header-cover.php:13
+#: patterns/error-header-no-background.php:12
+#, fuzzy
+msgid "Error - Content Not Found"
+msgstr "त्रुटि - सामग्री नहीं मिली"
+
+#: patterns/footer-base-two-columns.php:22
+#: patterns/footer-contrast-two-columns.php:22
+#, fuzzy
+msgid "Menu Title"
+msgstr "मेनू शीर्षक"
+
+#: patterns/header-base-centered-menu-site-logo-top-bar.php:14
+#: patterns/header-base-centered-menu-top-bar.php:14
+#: patterns/header-base-mobile-menu-top-bar.php:14
+#: patterns/header-base-regular-menu-top-bar.php:14
+#: patterns/header-contrast-centered-menu-site-logo-top-bar.php:14
+#: patterns/header-contrast-centered-menu-top-bar.php:14
+#: patterns/header-contrast-mobile-menu-top-bar.php:14
+#: patterns/header-contrast-regular-menu-top-bar.php:14
+#, fuzzy
+msgid "Find Me On:"
+msgstr "मुझे खोजें:"
+
+#: patterns/query-post-column.php:27 patterns/query-post-columns.php:34
+#: patterns/single-post-column.php:26 patterns/single-post-columns.php:33
+#, fuzzy
+msgid "Read This Post"
+msgstr "इस पोस्ट को पढ़ें"
+
+#: patterns/query-post-column.php:42 patterns/query-post-columns.php:50
+#: patterns/query-post-cover.php:34
+#, fuzzy
+msgid "There are no posts here. Sorry."
+msgstr "यहां कोई पोस्ट नहीं हैं. क्षमा मांगना।"
+
+#: patterns/related-posts.php:12
+#, fuzzy
+msgid "Related Posts"
+msgstr "संबंधित पोस्ट"
+
+#: patterns/search-filters-categories-only.php:12
+#, fuzzy
+msgid "Select a Category"
+msgstr "एक श्रेणी चुनें"
+
+#: patterns/search-filters-categories-only.php:17
+#: patterns/search-filters-categories-search-row.php:18
+#: patterns/search-filters-categories-search-rows.php:18
+#, fuzzy
+msgid "Category 1"
+msgstr "श्रेणी 1"
+
+#: patterns/search-filters-categories-only.php:21
+#: patterns/search-filters-categories-search-row.php:22
+#: patterns/search-filters-categories-search-rows.php:22
+#, fuzzy
+msgid "Category 2"
+msgstr "श्रेणी 2"
+
+#: patterns/search-filters-categories-only.php:25
+#: patterns/search-filters-categories-search-row.php:26
+#: patterns/search-filters-categories-search-rows.php:26
+#, fuzzy
+msgid "Category 3"
+msgstr "श्रेणी 3"
+
+#: patterns/search-filters-categories-only.php:29
+#: patterns/search-filters-categories-search-row.php:30
+#: patterns/search-filters-categories-search-rows.php:30
+#, fuzzy
+msgid "Category 4"
+msgstr "श्रेणी 4"
+
+#: patterns/search-filters-categories-only.php:33
+#: patterns/search-filters-categories-search-row.php:34
+#: patterns/search-filters-categories-search-rows.php:34
+#, fuzzy
+msgid "Category 5"
+msgstr "श्रेणी 5"
+
+#: patterns/search-filters-categories-search-row.php:13
+#: patterns/search-filters-categories-search-rows.php:13
+#, fuzzy
+msgid "Filter By:"
+msgstr "फिल्टर के द्वारा:"
+
+#: patterns/widget-title-background.php:13 patterns/widget-title-borders.php:13
+#, fuzzy
+msgid "Widget Title"
+msgstr "विजेट शीर्षक"
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "Journal Notes"
+msgstr "जर्नल नोट्स"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme"
+msgstr ""
+"https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A child starter theme for the Crosswinds Framework theme."
+msgstr "क्रॉसविंड्स फ्रेमवर्क थीम के लिए एक चाइल्ड स्टार्टर थीम।"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "Jacob Martella Web Development"
+msgstr "जैकब मार्टेला वेब डेवलपमेंट"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://jacobmartella.com/"
+msgstr "https://jacobmartella.com/"

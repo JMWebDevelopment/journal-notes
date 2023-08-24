@@ -8,8 +8,8 @@
  */
 ?>
 
-<!-- wp:query {"queryId":0,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"className":"query-loop query-post-cover","numTabletColumns":1} -->
-<div class="wp-block-query query-loop query-post-cover query-loop-has-1-tablet-columns query-loop-has-1-mobile-columns"><!-- wp:post-template -->
+<!-- wp:query {"queryId":0,"query":{"perPage":"10","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"className":"query-loop query-post-cover"} -->
+<div class="wp-block-query query-loop query-post-cover"><!-- wp:post-template -->
 <!-- wp:cover {"useFeaturedImage":true,"dimRatio":50,"isDark":false,"className":"post-cover"} -->
 <div class="wp-block-cover is-light post-cover"><span aria-hidden="true" class="wp-block-cover__background has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:post-title {"textAlign":"center","textColor":"base","fontSize":"max-60"} /-->
 

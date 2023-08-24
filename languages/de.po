@@ -1,0 +1,793 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Journal Notes\n"
+"POT-Creation-Date: 2023-08-17 16:46-0500\n"
+"PO-Revision-Date: 2023-08-17 16:52-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: admin/journal-notes-admin-settings.php:14
+#, fuzzy
+msgid "View More Crosswinds Framework Themes"
+msgstr "Mehr Crosswinds Framework Themes anzeigen"
+
+#: admin/journal-notes-admin-settings.php:16
+#, fuzzy
+msgid ""
+"Want to take your website to the next level? Checkout the preimum Crosswinds "
+"Framework themes! From a portfolio to an online store to a newspaper website "
+"and more, the Crosswinds Framework themes will help you create a great "
+"website."
+msgstr ""
+"Möchten Sie Ihre Website auf die nächste Stufe heben? Sehen Sie sich die "
+"optimalen Crosswinds Framework-Themen an! Von einem Portfolio über einen "
+"Online-Shop bis hin zu einer Zeitungs-Website und mehr - die Crosswinds "
+"Framework-Themen helfen Ihnen, eine großartige Website zu erstellen."
+
+#: admin/journal-notes-admin-settings.php:17
+#, fuzzy
+msgid "View Crosswinds Framework Themes"
+msgstr "Ansicht Crosswinds Framework Themes"
+
+#. translators: %s: Search term.
+#: functions.php:59
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "Suchergebnisse für \"%s\""
+
+#: functions.php:59
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#: functions.php:68
+msgid "Full-height"
+msgstr "Volle Höhe"
+
+#: functions.php:76
+msgid "Underlined"
+msgstr "Unterstrichen"
+
+#: functions.php:83
+msgid "No Background"
+msgstr "Kein Hintergrund"
+
+#: functions.php:90
+msgid "Chevron Right"
+msgstr "Chevron rechts"
+
+#: functions.php:94
+msgid "Checkmark"
+msgstr "Häkchen"
+
+#: functions.php:98
+msgid "Dash"
+msgstr "Strich"
+
+#: functions.php:111
+msgid "Normal"
+msgstr "Normal"
+
+#: functions.php:117
+#, fuzzy
+msgid "Round Edges"
+msgstr "Runde Kanten"
+
+#: functions.php:125
+#, fuzzy
+msgid "Primary Soft Drop Shadow"
+msgstr "Primärer weicher Schlagschatten"
+
+#: functions.php:132
+#, fuzzy
+msgid "Primary Hard Drop Shadow"
+msgstr "Primärer harter Schlagschatten"
+
+#: functions.php:238
+#, fuzzy
+msgid ""
+"Welcome to Journal Notes and the Crosswinds Framework! With the power of "
+"this theme as well as the Crosswinds Blocks plugin, you can quickly create "
+"an amazing blog. On this page you'll be able to set up the blocks plugin to "
+"your liking, add your theme license, set up the theme for your website and "
+"find links to manage your account, read through documentation and so much "
+"more. You'll be able to create an amazing blog in no time!"
+msgstr ""
+"Willkommen bei Journal Notes und dem Crosswinds Framework! Mit der Kraft "
+"dieses Themes und dem Crosswinds Blocks Plugin können Sie schnell einen "
+"tollen Blog erstellen. Auf dieser Seite können Sie das Blocks-Plugin nach "
+"Ihren Wünschen einrichten, Ihre Theme-Lizenz hinzufügen, das Theme für Ihre "
+"Website einrichten und Links zur Verwaltung Ihres Kontos, zum Lesen der "
+"Dokumentation und vielem mehr finden. So können Sie im Handumdrehen einen "
+"tollen Blog erstellen!"
+
+#: functions.php:247 functions.php:249
+msgid "Report an Issue"
+msgstr "Ein Problem melden"
+
+#: functions.php:248
+#, fuzzy
+msgid ""
+"If you come across an issue with Journal Notes, the Crosswinds Framework or "
+"Crosswinds Blocks, please report the issue via the form on the page linked "
+"to below. Thank you!"
+msgstr ""
+"Wenn Sie auf ein Problem mit Journal Notes, dem Crosswinds Framework oder "
+"Crosswinds Blocks stoßen, melden Sie das Problem bitte über das Formular auf "
+"der unten verlinkten Seite. Wir danken Ihnen!"
+
+#: functions.php:259 functions.php:261
+msgid "Suggest a Feature"
+msgstr "Feature vorschlagen"
+
+#: functions.php:260
+#, fuzzy
+msgid ""
+"New ideas are always welcome! If you have an idea for a new feature for "
+"Journal Notes, the Crosswinds Framework and/or Crosswinds Block, you can "
+"submit it through the form on the page linked to below! Thank you!"
+msgstr ""
+"Neue Ideen sind immer willkommen! Wenn Sie eine Idee für eine neue Funktion "
+"für Journal Notes, das Crosswinds Framework und/oder den Crosswinds Block "
+"haben, können Sie diese über das Formular auf der unten verlinkten Seite "
+"einreichen! Wir danken Ihnen!"
+
+#: functions.php:271
+#, fuzzy
+msgid "Check Out the Documentation"
+msgstr "Lesen Sie die Dokumentation"
+
+#: functions.php:272
+#, fuzzy
+msgid ""
+"Learn how you can get started using Journal Notes and the Crosswinds "
+"Framework for your website by visiting the documentation at the link below."
+msgstr ""
+"Erfahren Sie, wie Sie Journal Notes und das Crosswinds Framework für Ihre "
+"Website nutzen können, indem Sie die Dokumentation unter dem folgenden Link "
+"aufrufen."
+
+#: functions.php:273
+msgid "View Documentation"
+msgstr "Dokumentation ansehen"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Es ist ein Fehler mit der Plugin-API aufgetreten."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dieses Theme erfordert das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme erfordert die folgenden Plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dieses Theme empfiehlt das folgende Plugin: %1$s."
+msgstr[1] "Dieses Theme empfiehlt die folgenden Plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Das folgende Plugin muss auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme sicher zu stellen: %1$s."
+msgstr[1] ""
+"Die folgenden Plugins müssen auf die neueste Version aktualisiert werden, um "
+"maximale Kompatibilität mit diesem Theme sicher zu stellen: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Es ist ein Update verfügbar für: %1$s."
+msgstr[1] "Es sind Updates verfügbar für: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende erforderliche Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden erforderlichen Plugins sind derzeit inaktiv: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgmpa/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Das folgende empfohlene Plugin ist derzeit inaktiv: %1$s."
+msgstr[1] "Die folgenden empfohlenen Plugins sind derzeit inaktiv: %1$s."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Beginne das Plugin zu installieren"
+msgstr[1] "Beginne die Plugins zu installieren"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Beginne mit der Aktualisierung des Plugins"
+msgstr[1] "Beginne mit der Aktualisierung der Plugins"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin wird aktiviert"
+msgstr[1] "Plugins werden aktiviert"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der benötigten Plugins"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:393
+#: inc/tgmpa/class-tgm-plugin-activation.php:920
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+#: inc/tgmpa/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:394
+#: inc/tgmpa/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:395
+#: inc/tgmpa/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] "Die folgenden Plugins wurden erfolgreich aktiviert:"
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin wurde nicht aktiviert. Eine neuere Version des %s ist für dieses "
+"Theme erforderlich. Bitte aktualisieren Sie das Plugin."
+
+#. translators: 1: dashboard link.
+#: inc/tgmpa/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:402
+#, fuzzy
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Es existieren ein oder mehrere benötigte oder empfohlene Plugins, die "
+"installiert, aktualisiert oder aktiviert werden müssen."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktieren Sie den Administrator dieser Website für Hilfe."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, um mit Ihrem Theme kompatibel zu "
+"sein."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:608
+#, fuzzy
+msgid "Update Required"
+msgstr "Aktualisierung erforderlich"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Verwenden Sie stattdessen die Variable parent_slug."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das Remote-Plugin-Paket enthält keinen Ordner mit dem gewünschten Kürzel und "
+"eine Umbenennung hat nicht funktioniert."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1027
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte kontaktieren Sie den Plugin-Anbieter und bitten Sie ihn, seine Plugins "
+"nach den Wordpress-Richtlinien zu komprimieren."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das Remote-Plugin-Paket besteht aus mehreren Dateien, aber die Dateien sind "
+"nicht in einem Ordner gepackt."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:1214
+#: inc/tgmpa/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#. translators: %s: version number
+#: inc/tgmpa/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Erforderlich"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2408
+#, fuzzy
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Erforderliche Aktualisierung nicht verfügbar"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Update erforderlich"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgmpa/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Installieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Installieren <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktualisierung verfügbar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgmpa/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+msgstr[1] "Zum Aktivieren <span class=\"count\">(%s)</span>"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimal erforderliche Version:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zum Installieren, Aktualisieren oder Aktivieren."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Quelle"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Typ"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgmpa/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktiviere %2$s"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installieren"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Installation ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktualisierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Derzeit stehen keine Plugins zur Installation zur Verfügung."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktivierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Während der Installation von %1$s: <strong>%2$s</strong> ist ein Fehler "
+"aufgetreten."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess wurde gestartet. Dies kann eine "
+"Weile dauern, haben Sie etwas Geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3602
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsprozess wird gestartet. Dieser Prozess kann auf manchen "
+"Servern etwas Zeit in Anspruch nehmen. Bitte haben Sie Geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#: inc/tgmpa/class-tgm-plugin-activation.php:3611
+#, fuzzy
+msgid "All installations have been completed."
+msgstr "Alle Installationen wurden abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgmpa/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#: patterns/callout-cover-one-column.php:13
+#: patterns/callout-cover-two-columns.php:15
+msgid "Call to Action Title"
+msgstr "Call to Action Titel"
+
+#: patterns/callout-cover-one-column.php:22
+#: patterns/callout-cover-two-columns.php:26
+msgid "Call to Action Button"
+msgstr "Call to Action Button"
+
+#: patterns/default-sidebar.php:14
+msgid "Calendar"
+msgstr "Kalender"
+
+#: patterns/default-sidebar.php:26
+msgid "Categories"
+msgstr "Kategorien"
+
+#: patterns/default-sidebar.php:38
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: patterns/default-sidebar.php:50
+msgid "Latest Posts"
+msgstr "Neueste Beiträge"
+
+#: patterns/default-sidebar.php:62
+msgid "Latest Comments"
+msgstr "Neueste Kommentare"
+
+#: patterns/error-header-background.php:13 patterns/error-header-cover.php:13
+#: patterns/error-header-no-background.php:12
+#, fuzzy
+msgid "Error - Content Not Found"
+msgstr "Fehler - Inhalt nicht gefunden"
+
+#: patterns/footer-base-two-columns.php:22
+#: patterns/footer-contrast-two-columns.php:22
+msgid "Menu Title"
+msgstr "Menü Titel"
+
+#: patterns/header-base-centered-menu-site-logo-top-bar.php:14
+#: patterns/header-base-centered-menu-top-bar.php:14
+#: patterns/header-base-mobile-menu-top-bar.php:14
+#: patterns/header-base-regular-menu-top-bar.php:14
+#: patterns/header-contrast-centered-menu-site-logo-top-bar.php:14
+#: patterns/header-contrast-centered-menu-top-bar.php:14
+#: patterns/header-contrast-mobile-menu-top-bar.php:14
+#: patterns/header-contrast-regular-menu-top-bar.php:14
+msgid "Find Me On:"
+msgstr "Finde mich auf:"
+
+#: patterns/query-post-column.php:27 patterns/query-post-columns.php:34
+#: patterns/single-post-column.php:26 patterns/single-post-columns.php:33
+#, fuzzy
+msgid "Read This Post"
+msgstr "Diesen Beitrag lesen"
+
+#: patterns/query-post-column.php:42 patterns/query-post-columns.php:50
+#: patterns/query-post-cover.php:34
+#, fuzzy
+msgid "There are no posts here. Sorry."
+msgstr "Hier gibt es keine Beiträge. Entschuldigung."
+
+#: patterns/related-posts.php:12
+msgid "Related Posts"
+msgstr "Ähnliche Beiträge"
+
+#: patterns/search-filters-categories-only.php:12
+msgid "Select a Category"
+msgstr "Kategorie auswählen"
+
+#: patterns/search-filters-categories-only.php:17
+#: patterns/search-filters-categories-search-row.php:18
+#: patterns/search-filters-categories-search-rows.php:18
+msgid "Category 1"
+msgstr "Kategorie 1"
+
+#: patterns/search-filters-categories-only.php:21
+#: patterns/search-filters-categories-search-row.php:22
+#: patterns/search-filters-categories-search-rows.php:22
+msgid "Category 2"
+msgstr "Kategorie 2"
+
+#: patterns/search-filters-categories-only.php:25
+#: patterns/search-filters-categories-search-row.php:26
+#: patterns/search-filters-categories-search-rows.php:26
+#, fuzzy
+msgid "Category 3"
+msgstr "Kategorie 3"
+
+#: patterns/search-filters-categories-only.php:29
+#: patterns/search-filters-categories-search-row.php:30
+#: patterns/search-filters-categories-search-rows.php:30
+#, fuzzy
+msgid "Category 4"
+msgstr "Kategorie 4"
+
+#: patterns/search-filters-categories-only.php:33
+#: patterns/search-filters-categories-search-row.php:34
+#: patterns/search-filters-categories-search-rows.php:34
+#, fuzzy
+msgid "Category 5"
+msgstr "Kategorie 5"
+
+#: patterns/search-filters-categories-search-row.php:13
+#: patterns/search-filters-categories-search-rows.php:13
+msgid "Filter By:"
+msgstr "Filtern nach:"
+
+#: patterns/widget-title-background.php:13 patterns/widget-title-borders.php:13
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+msgid "Journal Notes"
+msgstr "Tagebuchnotizen"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid ""
+"https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme"
+msgstr ""
+"https://github.com/JMWebDevelopment/JM-Web-Development-FSE-Starter-Theme"
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid "A child starter theme for the Crosswinds Framework theme."
+msgstr "Ein untergeordnetes Startthema für das Crosswinds Framework-Thema."
+
+#. Author of the plugin/theme
+msgid "Jacob Martella Web Development"
+msgstr "Jacob Martella Web Development"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://jacobmartella.com/"
+msgstr "https://jacobmartella.com/"

@@ -217,3 +217,61 @@ add_action( 'init', 'journal_notes_remove_core_patterns' );
 add_filter( 'crosswinds_blocks_enable_single-content_block', function(){
 	return true;
 } );
+
+// Create the admin section
+add_action( 'crosswinds_framework_theme_settings', function(){
+	include get_stylesheet_directory() . '/admin/journal-notes-admin-settings.php';
+} );
+
+function journal_notes_remove_actions() {
+	remove_action( 'crosswinds_framework_admin_intro', 'crosswinds_framework_admin_intro' );
+	remove_action( 'crosswinds_framework_admin_report_issue_section', 'crosswinds_framework_report_an_issue' );
+	remove_action( 'crosswinds_framework_admin_feature_request_section', 'crosswinds_framework_feature_request' );
+	remove_action( 'crosswinds_framework_admin_review_section', 'crosswinds_framework_leave_a_review' );
+	remove_action( 'crosswinds_framework_admin_documentation_section', 'crosswinds_framework_view_documentation' );
+}
+add_action('init' , 'journal_notes_remove_actions' , 15 );
+
+// Create the theme intro section.
+function journal_notes_admin_intro() {
+	?>
+	<p><?php esc_html_e( 'Welcome to Journal Notes and the Crosswinds Framework! With the power of this theme as well as the Crosswinds Blocks plugin, you can quickly create an amazing blog. On this page you\'ll be able to set up the blocks plugin to your liking, add your theme license, set up the theme for your website and find links to manage your account, read through documentation and so much more. You\'ll be able to create an amazing blog in no time!', 'journal-notes' ); ?></p>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_intro', 'journal_notes_admin_intro' );
+
+// Create the "Report an Issue" section text.
+function journal_notes_report_an_issue() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Report an Issue', 'journal-notes' ); ?></h2>
+		<p><?php esc_html_e( 'If you come across an issue with Journal Notes, the Crosswinds Framework or Crosswinds Blocks, please report the issue via the form on the page linked to below. Thank you!', 'journal-notes' ); ?></p>
+		<a class="button cf-button-primary" href="https://crosswindsframework.com/report-an-issue/"><?php esc_html_e( 'Report an Issue', 'journal-notes' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_report_issue_section', 'journal_notes_report_an_issue' );
+
+// Create the "Suggest a Feature" section text.
+function journal_notes_feature_request() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Suggest a Feature', 'journal-notes' ); ?></h2>
+		<p><?php esc_html_e( 'New ideas are always welcome! If you have an idea for a new feature for Journal Notes, the Crosswinds Framework and/or Crosswinds Block, you can submit it through the form on the page linked to below! Thank you!', 'journal-notes' ); ?></p>
+		<a class="button cf-button-primary" href="https://crosswindsframework.com/feature-request/"><?php esc_html_e( 'Suggest a Feature', 'journal-notes' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_feature_request_section', 'journal_notes_feature_request' );
+
+// Create the "View Documentation" section text.
+function journal_notes_view_documentation() {
+	?>
+	<div class="options-section">
+		<h2><?php esc_html_e( 'Check Out the Documentation', 'journal-notes' ); ?></h2>
+		<p><?php esc_html_e( 'Learn how you can get started using Journal Notes and the Crosswinds Framework for your website by visiting the documentation at the link below.', 'journal-notes' ); ?></p>
+		<a class="button cf-button-primary" href="https://crosswindsframework.com/docs/journal-notes"><?php esc_html_e( 'View Documentation', 'journal-notes' ); ?></a>
+	</div>
+	<?php
+}
+add_action( 'crosswinds_framework_admin_documentation_section', 'journal_notes_view_documentation' );

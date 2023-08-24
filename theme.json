@@ -89,6 +89,16 @@
 					"color": "#d8dee9",
 					"name": "Tertiary",
 					"slug": "tertiary"
+				},
+				{
+					"color": "#d6dce2",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#bdbdbd",
+					"name": "Neutral",
+					"slug": "neutral"
 				}
 			]
 		},
@@ -498,11 +508,6 @@
 					"fontWeight":"var(--wp--custom--font-weight--medium)",
 					"fontFamily": "var(--wp--preset--font-family--heading)",
 					"fontStyle": "italic"
-				}
-			},
-			"core/paragraph": {
-				"spacing": {
-					"margin": "0"
 				}
 			},
 			"core/post-title": {
