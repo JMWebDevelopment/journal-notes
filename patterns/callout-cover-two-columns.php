@@ -2,7 +2,7 @@
 /**
  * Title: Call to Action - Cover with Two Columns
  * Slug: journal-notes/call-to-action-cover-two-columns
- * Categories: crosswinds-framework-call-to-actions
+ * Categories: crosswinds-framework-ctas
  * Viewport Width: 1280
  */
 ?>
