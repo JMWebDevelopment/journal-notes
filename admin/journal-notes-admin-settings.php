@@ -5,7 +5,7 @@
  * @package Journal Notes
  * @author  Jacob Martella Web Development
  * @license GNU General Public License v2 or later
- * @link    https://jacobmartella.com/
+ * @link    https://crosswindsframework.com/downloads/journal-notes
  */
 
 ?>

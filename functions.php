@@ -5,7 +5,7 @@
  * @package Crosswinds Framework Child Starter Theme
  * @author  Jacob Martella Web Development
  * @license GNU General Public License v2 or later
- * @link    https://jacobmartella.com/
+ * @link    https://crosswindsframework.com/downloads/journal-notes
  */
 
 if ( ! function_exists( 'journal_notes_setup' ) ) {
@@ -46,126 +46,134 @@ if ( ! function_exists( 'journal_notes_setup' ) ) {
 }
 add_action( 'after_setup_theme', 'journal_notes_setup' );
 
-// Enqueue style sheet.
+/**
+ * Enqueues the main stylesheet for the theme.
+ *
+ * @since 1.0
+ * 
+ */
 add_action( 'wp_enqueue_scripts', 'journal_notes_enqueue_style_sheet', 99 );
 function journal_notes_enqueue_style_sheet() {
 	wp_enqueue_style( 'journal-notes', get_stylesheet_directory_uri() . '/assets/css/global.min.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 
-function journal_notes_search_title() {
-	if ( isset( $_GET['s'] ) ) {
-		$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) );
-		/* translators: %s: Search term. */
-		return isset( $search_term ) ? sprintf( esc_html__( 'Search results for "%s"', 'journal-notes' ), esc_html( $search_term ) ) : __( 'Search results', 'journal-notes' );
-	}
-}
-
-// Include block styles.
-register_block_style(
-	'core/group',
-	array(
-		'name'  => 'full-height',
-		'label' => __( 'Full-height', 'journal-notes' ),
-	)
-);
-
-register_block_style(
-	'core/button',
-	array(
-		'name'  => 'journal-notes-line-button',
-		'label' => __( 'Underlined', 'journal-notes' ),
-	)
-);
-register_block_style(
-	'core/button',
-	array(
-		'name'  => 'journal-notes-no-background',
-		'label' => __( 'No Background', 'journal-notes' ),
-	)
-);
-
-$list_styles = array(
-	array(
-		'name'  => 'journal-notes-list-chevron-right',
-		'label' => __( 'Chevron Right', 'journal-notes' ),
-	),
-	array(
-		'name'  => 'journal-notes-list-check',
-		'label' => __( 'Checkmark', 'journal-notes' ),
-	),
-	array(
-		'name'  => 'journal-notes-list-dash',
-		'label' => __( 'Dash', 'journal-notes' ),
-	)
-);
-foreach ( $list_styles as $style ) {
+/**
+ * Loads all of the block styles for the theme.
+ *
+ * @since 1.0
+ */
+function journal_notes_load_block_styles() {
 	register_block_style(
-		'core/list',
-		$style
+		'core/group',
+		array(
+			'name'  => 'full-height',
+			'label' => __( 'Full-height', 'journal-notes' ),
+		)
 	);
-}
 
-$block_styles = array(
-	array(
-		'name'  => 'normal',
-		'label' => __( 'Normal', 'journal-notes' ),
-		'inline_style' => '',
-		'is_default'   => true,
-	),
-	array(
-		'name'  => 'round-edges',
-		'label' => __( 'Round Edges', 'journal-notes' ),
-		'inline_style' => '.is-style-round-edges {
-			border-radius: 12px;
-			overflow: hidden;
-		}',
-	),
-	array(
-		'name'  => 'primary-soft-drop-shadow',
-		'label' => __( 'Primary Soft Drop Shadow', 'journal-notes' ),
-		'inline_style' => '.is-style-primary-soft-drop-shadow {
-			box-shadow: 0 5px 20px 0 var(--wp--preset--color--primary)
-		}',
-	),
-	array(
-		'name'  => 'primary-hard-drop-shadow',
-		'label' => __( 'Primary Hard Drop Shadow', 'journal-notes' ),
-		'inline_style' => '.is-style-primary-hard-drop-shadow {
-			box-shadow: 10px 10px 0 0 var(--wp--preset--color--primary)
-		}',
-	),
-);
+	register_block_style(
+		'core/button',
+		array(
+			'name'  => 'journal-notes-line-button',
+			'label' => __( 'Underlined', 'journal-notes' ),
+		)
+	);
+	register_block_style(
+		'core/button',
+		array(
+			'name'  => 'journal-notes-no-background',
+			'label' => __( 'No Background', 'journal-notes' ),
+		)
+	);
 
-$blocks = array(
-	'core/group',
-	'core/columns',
-	'core/button',
-	'core/image',
-	'core/cover',
-	'core/table',
-	'core/pullquote',
-	'core/quote',
-	'core/calendar',
-	'core/social-links',
-);
-
-// Loop through each block to add the block styles to them.
-foreach ( $blocks as $block ){
-
-	foreach ( $block_styles as $block_style ) {
-
-		if ( ('core/button' === $block && 'normal' === $block_style['name']) || ( 'core/table' === $block && 'normal' === $block_style['name'] ) || ( 'core/quote' === $block && 'normal' === $block_style['name'] ) || ( 'core/image' === $block && 'normal' === $block_style['name'] ) || ( 'core/cover' === $block && 'normal' === $block_style['name'] ) || ( 'core/calendar' === $block && 'normal' === $block_style['name'] ) ) {
-			continue;
-		}
-
+	$list_styles = array(
+		array(
+			'name'  => 'journal-notes-list-chevron-right',
+			'label' => __( 'Chevron Right', 'journal-notes' ),
+		),
+		array(
+			'name'  => 'journal-notes-list-check',
+			'label' => __( 'Checkmark', 'journal-notes' ),
+		),
+		array(
+			'name'  => 'journal-notes-list-dash',
+			'label' => __( 'Dash', 'journal-notes' ),
+		)
+	);
+	foreach ( $list_styles as $style ) {
 		register_block_style(
-			$block,
-			$block_style
+			'core/list',
+			$style
 		);
 	}
-}
 
-// Remove unneeded patterns from Crosswinds.
+	$block_styles = array(
+		array(
+			'name'  => 'normal',
+			'label' => __( 'Normal', 'journal-notes' ),
+			'inline_style' => '',
+			'is_default'   => true,
+		),
+		array(
+			'name'  => 'round-edges',
+			'label' => __( 'Round Edges', 'journal-notes' ),
+			'inline_style' => '.is-style-round-edges {
+				border-radius: 12px;
+				overflow: hidden;
+			}',
+		),
+		array(
+			'name'  => 'primary-soft-drop-shadow',
+			'label' => __( 'Primary Soft Drop Shadow', 'journal-notes' ),
+			'inline_style' => '.is-style-primary-soft-drop-shadow {
+				box-shadow: 0 5px 20px 0 var(--wp--preset--color--primary)
+			}',
+		),
+		array(
+			'name'  => 'primary-hard-drop-shadow',
+			'label' => __( 'Primary Hard Drop Shadow', 'journal-notes' ),
+			'inline_style' => '.is-style-primary-hard-drop-shadow {
+				box-shadow: 10px 10px 0 0 var(--wp--preset--color--primary)
+			}',
+		),
+	);
+
+	$blocks = array(
+		'core/group',
+		'core/columns',
+		'core/button',
+		'core/image',
+		'core/cover',
+		'core/table',
+		'core/pullquote',
+		'core/quote',
+		'core/calendar',
+		'core/social-links',
+	);
+
+	// Loop through each block to add the block styles to them.
+	foreach ( $blocks as $block ){
+
+		foreach ( $block_styles as $block_style ) {
+
+			if ( ('core/button' === $block && 'normal' === $block_style['name']) || ( 'core/table' === $block && 'normal' === $block_style['name'] ) || ( 'core/quote' === $block && 'normal' === $block_style['name'] ) || ( 'core/image' === $block && 'normal' === $block_style['name'] ) || ( 'core/cover' === $block && 'normal' === $block_style['name'] ) || ( 'core/calendar' === $block && 'normal' === $block_style['name'] ) ) {
+				continue;
+			}
+
+			register_block_style(
+				$block,
+				$block_style
+			);
+		}
+	}
+}
+journal_notes_load_block_styles();
+
+/**
+ * Removes all of the Crosswinds Framework core patterns not used in the theme.
+ *
+ * @since 1.0
+ */
 function journal_notes_remove_core_patterns() {
 	$core_block_patterns = array(
 		'archive-content-left-sidebar',
@@ -223,6 +231,11 @@ add_action( 'crosswinds_framework_theme_settings', function(){
 	include get_stylesheet_directory() . '/admin/journal-notes-admin-settings.php';
 } );
 
+/**
+ * Removes the default text for the sections on the admin page.
+ *
+ * @since 1.0
+ */
 function journal_notes_remove_actions() {
 	remove_action( 'crosswinds_framework_admin_intro', 'crosswinds_framework_admin_intro' );
 	remove_action( 'crosswinds_framework_admin_report_issue_section', 'crosswinds_framework_report_an_issue' );
@@ -232,7 +245,12 @@ function journal_notes_remove_actions() {
 }
 add_action('init' , 'journal_notes_remove_actions' , 15 );
 
-// Create the theme intro section.
+/**
+ * Creates the intro section for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function journal_notes_admin_intro() {
 	?>
 	<p><?php esc_html_e( 'Welcome to Journal Notes and the Crosswinds Framework! With the power of this theme as well as the Crosswinds Blocks plugin, you can quickly create an amazing blog. On this page you\'ll be able to set up the blocks plugin to your liking, add your theme license, set up the theme for your website and find links to manage your account, read through documentation and so much more. You\'ll be able to create an amazing blog in no time!', 'journal-notes' ); ?></p>
@@ -240,7 +258,12 @@ function journal_notes_admin_intro() {
 }
 add_action( 'crosswinds_framework_admin_intro', 'journal_notes_admin_intro' );
 
-// Create the "Report an Issue" section text.
+/**
+ * Creates the "Report an Issue" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function journal_notes_report_an_issue() {
 	?>
 	<div class="options-section">
@@ -252,7 +275,12 @@ function journal_notes_report_an_issue() {
 }
 add_action( 'crosswinds_framework_admin_report_issue_section', 'journal_notes_report_an_issue' );
 
-// Create the "Suggest a Feature" section text.
+/**
+ * Creates the "Suggest a Feature" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function journal_notes_feature_request() {
 	?>
 	<div class="options-section">
@@ -264,7 +292,12 @@ function journal_notes_feature_request() {
 }
 add_action( 'crosswinds_framework_admin_feature_request_section', 'journal_notes_feature_request' );
 
-// Create the "View Documentation" section text.
+/**
+ * Creates the "View Documentation" section text for the admin page.
+ *
+ * @since 1.0
+ * 
+ */
 function journal_notes_view_documentation() {
 	?>
 	<div class="options-section">
