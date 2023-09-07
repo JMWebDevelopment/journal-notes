@@ -33,7 +33,7 @@ if ( ! function_exists( 'journal_notes_setup' ) ) {
 		// Enqueue editor styles and fonts.
 		add_editor_style(
 			array(
-				'./assets/css/editor-styles.min.css',
+				get_theme_file_uri( 'assets/css/editor/editor-style.min.css' )
 			)
 		);
 
@@ -141,7 +141,6 @@ function journal_notes_load_block_styles() {
 	$blocks = array(
 		'core/group',
 		'core/columns',
-		'core/button',
 		'core/image',
 		'core/cover',
 		'core/table',
