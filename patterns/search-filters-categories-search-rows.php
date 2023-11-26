@@ -9,8 +9,8 @@
 
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-small","right":"var:preset|spacing|xx-small","bottom":"var:preset|spacing|x-small","left":"var:preset|spacing|xx-small"},"blockGap":"var:preset|spacing|xx-small"}},"backgroundColor":"quaternary","className":"search-filters search-filters-categories-search-rows","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignwide search-filters search-filters-categories-search-rows has-quaternary-background-color has-background" style="padding-top:var(--wp--preset--spacing--x-small);padding-right:var(--wp--preset--spacing--xx-small);padding-bottom:var(--wp--preset--spacing--x-small);padding-left:var(--wp--preset--spacing--xx-small)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"600"}},"fontSize":"large","fontFamily":"heading"} -->
-<p class="has-heading-font-family has-large-font-size" style="font-style:italic;font-weight:600"><?php _e( 'Filter By:', 'journal-notes' ); ?></p>
+<div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"600"}},"fontSize":"large","fontFamily":"primary"} -->
+<p class="has-primary-font-family has-large-font-size" style="font-style:italic;font-weight:600"><?php _e( 'Filter By:', 'journal-notes' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->

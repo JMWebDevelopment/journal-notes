@@ -7,7 +7,7 @@ Stable tag: 1.0
 Requires PHP: 7.0  
 License: GNU General Public License v3.0 (or later)  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html  
-Website: https://crosswindsframework.com/  
+Website: https://crosswindsframework.com/downloads/journal-notes  
 
 == Description ==
 Everyone seems to have a blog these days. And Journal Notes gives you a nice and easy entry into the world of blogging.
@@ -40,8 +40,14 @@ So whether you want something super simple that you can start with in just minut
 GNU General Public License
 http://www.gnu.org/licenses/gpl.html
 
-= Photo License =
-Except where otherwise noted, all photos in the screenshot are also licensed under the GNU General Public License. Copyright 2023 Jacob Martella
+= Screenshot/Photo License =
+Image for theme screenshot first photo, Copyright Jacob Martella
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://wordpress.org/photos/photo/37762ca2e2/
+
+Image for theme screenshot second photo, Copyright Jacob Martella
+License: CC0 1.0 Universal (CC0 1.0)
+Source: https://wordpress.org/photos/photo/16362ca2f1/
 
 = Scripts License =
 All of the scripts used in this theme are licensed under the GNU General Public License (http://www.gnu.org/licenses/gpl.html).
