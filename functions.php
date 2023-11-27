@@ -267,8 +267,8 @@ function journal_notes_report_an_issue() {
 	?>
 	<div class="options-section">
 		<h2><?php esc_html_e( 'Report an Issue', 'journal-notes' ); ?></h2>
-		<p><?php esc_html_e( 'If you come across an issue with Journal Notes, the Crosswinds Framework or Crosswinds Blocks, please report the issue via the form on the page linked to below. Thank you!', 'journal-notes' ); ?></p>
-		<a class="button cf-button-primary" href="https://crosswindsframework.com/report-an-issue/"><?php esc_html_e( 'Report an Issue', 'journal-notes' ); ?></a>
+		<p><?php esc_html_e( 'If you come across an issue with Journal Notes, the Crosswinds Framework or Crosswinds Blocks, please report the issue as a GitHub issue at the link below. Thank you!', 'journal-notes' ); ?></p>
+		<a class="button cf-button-primary" href="https://github.com/JMWebDevelopment/journal-notes/issues/new/choose"><?php esc_html_e( 'Report an Issue', 'journal-notes' ); ?></a>
 	</div>
 	<?php
 }
@@ -284,8 +284,8 @@ function journal_notes_feature_request() {
 	?>
 	<div class="options-section">
 		<h2><?php esc_html_e( 'Suggest a Feature', 'journal-notes' ); ?></h2>
-		<p><?php esc_html_e( 'New ideas are always welcome! If you have an idea for a new feature for Journal Notes, the Crosswinds Framework and/or Crosswinds Block, you can submit it through the form on the page linked to below! Thank you!', 'journal-notes' ); ?></p>
-		<a class="button cf-button-primary" href="https://crosswindsframework.com/feature-request/"><?php esc_html_e( 'Suggest a Feature', 'journal-notes' ); ?></a>
+		<p><?php esc_html_e( 'New ideas are always welcome! If you have an idea for a new feature for Journal Notes, the Crosswinds Framework and/or Crosswinds Block, you can submit it as a GitHub issue at the link below! Thank you!', 'journal-notes' ); ?></p>
+		<a class="button cf-button-primary" href="https://github.com/JMWebDevelopment/journal-notes/issues/new/choose"><?php esc_html_e( 'Suggest a Feature', 'journal-notes' ); ?></a>
 	</div>
 	<?php
 }
