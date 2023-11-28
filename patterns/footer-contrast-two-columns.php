@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Contrast Footer with Two Columns
- * Slug: crosswinds-framework/footer-contrast-two-columns
+ * Slug: journal-notes/footer-contrast-two-columns
  * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */

@@ -211,7 +211,6 @@ function journal_notes_remove_core_patterns() {
 		'search-header-base-left',
 		'search-header-contrast-centered',
 		'search-header-contrast-left',
-		''
 	);
 
 	foreach ( $core_block_patterns as $core_block_pattern ) {

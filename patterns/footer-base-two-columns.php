@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Base Footer with Two Columns
- * Slug: crosswinds-framework/footer-base-two-columns
+ * Slug: journal-notes/footer-base-two-columns
  * Categories: crosswinds-framework-footer
  * Viewport Width: 1440
  */
