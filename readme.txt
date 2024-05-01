@@ -3,7 +3,7 @@ Contributors: Jacob Martella
 Tags: one-column, two-columns, custom-colors, custom-menu, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, right-sidebar, full-width-template, style-variations, wide-blocks  
 Requires at least: 6.0  
 Tested up to: 6.4  
-Stable tag: 1.0.2  
+Stable tag: 1.1.0  
 Requires PHP: 7.0  
 License: GNU General Public License v3.0 (or later)  
 License URI: https://www.gnu.org/licenses/gpl-3.0.html  
@@ -33,6 +33,12 @@ So whether you want something super simple that you can start with in just minut
 - Find the Journal Notes listing on this page and click 'Activate'.
 
 == Changelog ==
+= 1.1.0 =
+- Added in support for the new Crosswinds Blocks Onboarding Wizard.
+- Added in new style variations.
+- Added in more gradual gradients.
+- Updated the padding for elemental patterns.
+
 = 1.0.2 =
 - Initial release to the WordPress theme directory.
 
