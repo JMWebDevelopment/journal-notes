@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xx-small"}},"className":"post-header post-header-column","layout":{"type":"constrained"}} -->
+<!-- wp:group {"style":{"spacing":{"blockGap":"var(--wp--preset--spacing--x-small)"}},"className":"post-header post-header-column","layout":{"type":"constrained"}} -->
 <div class="wp-block-group post-header post-header-column"><!-- wp:post-featured-image /-->
 
 <!-- wp:post-title {"textAlign":"center","level":1,"fontSize":"max-60"} /-->

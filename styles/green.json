@@ -340,6 +340,46 @@
 					"slug": "v-tertiary-secondary",
 					"gradient": "linear-gradient(to right, #00a21f 69.9%,#008217 70%)",
 					"name": "Vertical tertiary to secondary"
+				},
+				{
+					"slug": "d-primary-background-fade",
+					"gradient": "linear-gradient(to bottom right, var(--wp--preset--color--primary) 0%,var(--wp--preset--color--base) 100%)",
+					"name": "Diagonal primary to background"
+				},
+				{
+					"slug": "d-background-primary-fade",
+					"gradient": "linear-gradient(to bottom right, var(--wp--preset--color--base) 0%, var(--wp--preset--color--primary) 100%)",
+					"name": "Diagonal background to primary"
+				},
+				{
+					"slug": "d-primary-secondary-fade-fade",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--secondary) 100%)",
+					"name": "Diagonal primary to secondary"
+				},
+				{
+					"slug": "d-secondary-primary-fade",
+					"gradient": "linear-gradient(to bottom right, var(--wp--preset--color--secondary) 0%, var(--wp--preset--color--primary) 100%)",
+					"name": "Diagonal secondary to primary"
+				},
+				{
+					"slug": "d-primary-tertiary-fade",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"name": "Diagonal primary to tertiary"
+				},
+				{
+					"slug": "d-tertiary-primary-fade",
+					"gradient": "linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--primary) 100%)",
+					"name": "Diagonal tertiary to primary"
+				},
+				{
+					"slug": "d-secondary-tertiary-fade",
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"name": "Diagonal primary to secondary"
+				},
+				{
+					"slug": "d-tertiary-secondary-fade",
+					"gradient": "linear-gradient(to bottom right, var(--wp--preset--color--tertiary) 0%, var(--wp--preset--color--secondary) 100%)",
+					"name": "Diagonal tertiary to secondary"
 				}
 			],
 			"duotone": [
